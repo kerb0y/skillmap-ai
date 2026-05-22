@@ -57,7 +57,7 @@ skillmap-ai/
 ### 1. Clone & masuk ke folder
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/kerb0y/skillmap-ai
 cd skillmap-ai
 ```
 
