@@ -1,4 +1,4 @@
-# SkillMap AI – API Documentation
+# SkillMap AI – API Documentation (v2.0.0)
 
 ## Overview
 
@@ -77,13 +77,25 @@ Health check.
 
 ### `GET /jobs`
 
-Menampilkan daftar semua target_job yang tersedia di sistem.
+Menampilkan daftar semua **career categories** yang tersedia di sistem.
+Semua label sudah dinormalisasi dari career taxonomy — bukan raw job title dari dataset.
 
 **Response:**
 ```json
 {
-  "total": 150,
-  "jobs": ["data analyst", "data scientist", "software engineer", "..."]
+  "total": 33,
+  "jobs": [
+    "accountant", "admin officer", "business analyst", "civil engineer",
+    "content creator", "customer service", "cyber security analyst",
+    "data analyst", "data engineer", "data scientist", "devops engineer",
+    "digital marketing", "embedded engineer", "entrepreneur",
+    "finance staff", "graphic designer", "healthcare staff",
+    "human resources", "it support", "legal staff",
+    "machine learning engineer", "mechanical engineer", "network engineer",
+    "operations staff", "product manager", "project manager",
+    "quality assurance engineer", "sales executive", "sales manager",
+    "software engineer", "teacher / lecturer", "ui ux designer", "web developer"
+  ]
 }
 ```
 
@@ -114,9 +126,9 @@ Endpoint utama untuk analisis CV.
 
 | Field | Type | Required | Default | Description |
 |-------|------|----------|---------|-------------|
-| `cv_text` | string | ✅ | - | Teks CV user (minimal 1 karakter) |
-| `target_job` | string | ❌ | `""` | Target pekerjaan (opsional, kosong = sistem memilih) |
-| `quiz_score` | float | ❌ | `80` | Skor mini-quiz (0-100) |
+| `cv_text` | string | Yes | - | Teks CV user (minimal 1 karakter) |
+| `target_job` | string | No | `""` | Target karier (opsional). Sistem auto-normalisasi ke career category terdekat. Contoh: "data analyst", "software dev", "web developer" |
+| `quiz_score` | float | No | `80` | Skor mini-quiz (0-100) |
 
 **Response:**
 ```json
