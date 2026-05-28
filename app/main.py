@@ -11,6 +11,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel, Field
 
 from app.inference import (
+    CAREER_CATEGORIES,
+    MODEL_CLASSES,
     get_skillmap_result,
     job_skill_map,
     known_skills,
@@ -21,9 +23,10 @@ app = FastAPI(
     title="SkillMap AI API",
     description=(
         "API untuk analisis CV, prediksi karier, deteksi skill gap, "
-        "dan rekomendasi learning path berbasis AI."
+        "dan rekomendasi learning path berbasis AI. "
+        "Career categories (~100) telah dinormalisasi dari expanded career taxonomy."
     ),
-    version="1.0.0",
+    version="3.0.0",
 )
 
 
@@ -56,13 +59,10 @@ def root():
     """Root endpoint - info API."""
     return {
         "message": "SkillMap AI API is running",
-        "version": "1.0.0",
+        "version": "3.0.0",
         "endpoints": [
-            "GET /",
-            "GET /health",
-            "GET /jobs",
-            "GET /skills",
-            "POST /predict",
+            "GET /", "GET /health", "GET /info",
+            "GET /jobs", "GET /skills", "POST /predict",
         ],
     }
 
@@ -75,9 +75,31 @@ def health():
 
 @app.get("/jobs")
 def list_jobs():
-    """Menampilkan daftar target_job yang tersedia."""
-    jobs = sorted(list(job_skill_map.keys()))
+    """
+    Daftar semua career categories bersih (~100 kategori).
+    Mencakup: IT, non-IT, kategori yang cukup data maupun rule-based.
+    Gunakan nilai ini sebagai pilihan target_job di /predict.
+    """
+    jobs = sorted(CAREER_CATEGORIES)
     return {"total": len(jobs), "jobs": jobs}
+
+
+@app.get("/info")
+def info():
+    """
+    Informasi sistem: jumlah career_categories vs model_classes.
+    career_categories = semua kategori di /jobs.
+    model_classes = kategori yang benar-benar dilatih model (cukup sample).
+    """
+    return {
+        "career_categories_total": len(CAREER_CATEGORIES),
+        "model_classes_total": len(MODEL_CLASSES),
+        "model_classes": sorted(MODEL_CLASSES),
+        "note": (
+            "Jika target_job tidak ada di model_classes, "
+            "skill_gap tetap dihitung dari job_skill_map (rule-based)."
+        ),
+    }
 
 
 @app.get("/skills")

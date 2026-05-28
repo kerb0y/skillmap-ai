@@ -1,3670 +1,1199 @@
 {
-  "software": [
-    "sql",
+  "software engineer": [
     "python",
     "java",
-    "c++"
+    "javascript",
+    "git",
+    "sql",
+    "system designing",
+    "problem solving skills",
+    "communication skills",
+    "analytical skills"
   ],
-  "computer software engineer": [
-    "sql",
-    "programming",
-    "team work",
+  "customer service": [
+    "communication skills",
+    "active listening",
+    "problem solving skills",
+    "customer service",
+    "patience",
+    "crm",
+    "product knowledge",
+    "interpersonal skills",
+    "empathy",
+    "microsoft office"
+  ],
+  "embedded engineer": [
     "python",
-    "java",
+    "electronics",
+    "microcontroller",
+    "linux",
+    "problem solving skills",
+    "analytical skills",
+    "communication skills",
+    "electrical engineering",
+    "circuit design"
+  ],
+  "network engineer": [
+    "networking",
+    "linux",
+    "cloud computing",
     "communication skills",
     "problem solving skills",
     "analytical skills",
-    "leadership",
-    "linux"
+    "cisco",
+    "firewall",
+    "tcp/ip",
+    "routing"
   ],
-  "relationships manager": [
-    "critical thinking",
-    "accounting skills"
-  ],
-  "plant instrumentation engineer": [
-    "plc allen bradley",
-    "requirements gathering",
-    "productivity improvement",
-    "lean six sigma blackbelt",
-    "labview",
-    "business analysis",
-    "end-to-end projectmanagement",
-    "crossfunctional team leadership",
-    "plc ladder logic",
-    "lean six sigma"
-  ],
-  "network analyst": [
-    "java",
-    "c++",
-    "html"
-  ],
-  "senior software engineer": [
-    "critical thinking",
-    "programming",
-    "linux",
-    "java",
-    "python",
-    "sql",
-    "gathering information",
-    "active listening",
-    "hardware skills"
-  ],
-  "tele-caller": [
-    "team work",
+  "sales executive": [
     "sales",
-    "tableau",
-    "excel",
+    "communication skills",
+    "negotiation skills",
+    "product knowledge",
+    "customer service",
+    "crm",
     "problem solving skills",
-    "cost accounting",
-    "accounting skills",
-    "writing",
+    "interpersonal skills",
     "analytical skills",
-    "business knowledge"
+    "presentation skills"
   ],
   "data engineer": [
     "python",
-    "excel",
     "sql",
-    "team work",
-    "presentation skills",
-    "analytical skills",
-    "communication skills",
-    "linux",
-    "creativity skills",
-    "gathering informing"
-  ],
-  "worked in research institute": [
-    "machine learning skills",
-    "python",
-    "data visualization",
-    "sql",
-    "analytical skills"
-  ],
-  "teacher": [
-    "critical thinking",
-    "reading",
-    "analytical skills",
-    "subject knowledge",
-    "tableau",
-    "python",
-    "problem solving skills",
-    "team work",
-    "leadership",
-    "gathering informing"
-  ],
-  "embedded system engineer": [
-    "kicad",
-    "embedded c",
-    "c ++",
-    "software project management",
-    "arduino",
-    "eagle pcb",
-    "avr",
-    "matlab",
-    "arm cortex-m"
-  ],
-  "assistant professor": [
-    "analytical skills",
-    "critical thinking",
-    "communication skills",
-    "python",
-    "problem solving skills",
-    "active listening",
-    "leadership",
-    "programming",
-    "team work",
-    "people management"
-  ],
-  "mine engineer": [
-    "hardware skills"
-  ],
-  "mechanical design engineer": [
-    "cad/cae(autocad/catia/ansys/proe/seimensnx)",
-    "etabs",
-    "proeficiency in software like staad pro",
-    "analytical skills",
-    "artificial intelligence",
-    "machine learning skills",
-    "python",
-    "data visualization",
-    "social media marketing",
-    "product knowledge"
-  ],
-  "finance manager": [
-    "accounting skills",
-    "gathering information",
-    "critical thinking",
-    "mass communication",
-    "product knowledge",
-    "sales",
-    "business knowledge",
-    "communication skills",
-    "people management",
-    "risk management skills"
-  ],
-  "teaching": [
-    "active listening",
-    "work under pressure",
-    "presentation skills",
-    "reading",
-    "team work",
-    "teamwork",
-    "interpersonal skills",
-    "teaching",
-    "excel",
-    "programming"
-  ],
-  "national head": [
-    "business knowledge",
-    "product knowledge",
-    "civil & criminal law"
-  ],
-  "field engineer": [
-    "python",
-    "problem solving skills",
-    "critical thinking",
-    "interpersonal skills",
-    "designing skills"
-  ],
-  "investment banking associate": [
-    "financial services",
-    "financial analysis",
-    "strategic planning",
-    "marketing strategy",
-    "financial modeling"
-  ],
-  "sales executive": [
-    "team work",
-    "sales",
-    "business knowledge",
-    "work under pressure",
-    "product knowledge",
-    "leadership",
-    "communication skills",
-    "logical skills",
-    "building rapport",
-    "people management"
-  ],
-  "vlsi digital design": [
-    "simulation",
-    "risk managing",
-    "excel",
-    "logical skills",
-    "creativity skills",
-    "vlsi design",
-    "iot",
-    "embedded",
-    "designing skills",
-    "observation skills"
-  ],
-  "production manager": [
-    "java",
-    "python",
-    "excel",
-    "logical skills",
-    "sql",
-    "creativity skills",
-    "negotiation skills",
-    "critical thinking",
-    "interpersonal skills",
-    "c++"
-  ],
-  "life insurance": [
-    "product knowledge",
-    "sales",
-    "business knowledge",
-    "problem solving skills",
-    "negotiation skills",
-    "interpersonal skills",
-    "active listening",
-    "leadership",
-    "communication skills"
-  ],
-  "full stack developer": [
-    "problem solving skills",
-    "machine learning skills",
-    "business knowledge",
-    "data visualization",
-    "sql",
-    "negotiation skills",
-    "analytical skills",
-    "java backend development",
-    "javascript for web developers",
-    "string stringbuffer and stringbuilder in java"
-  ],
-  "process analyst": [
-    "creativity skills",
-    "team work",
-    "logical skills",
-    "active listening"
-  ],
-  "housewife": [
-    "accounting skills",
-    "cost accounting",
-    "analytical skills"
-  ],
-  "junior interior designer": [
-    "people management",
-    "architecture",
-    "writing skills",
-    "mass communication",
-    "leadership",
-    "programming",
-    "designing skills"
-  ],
-  "hr": [
-    "communication skills",
-    "observation skills",
-    "mass communication",
-    "gathering informing",
-    "editing",
-    "people management",
-    "risk managing",
-    "work under pressure",
-    "team work",
-    "interpersonal skills"
-  ],
-  "design engineer": [
-    "designing skills",
-    "analytical skills",
-    "product knowledge",
-    "team work",
-    "leadership",
-    "risk managing",
-    "excel",
-    "reporting",
-    "critical thinking",
-    "observation skills"
-  ],
-  "devops engineer": [
-    "jenkins",
-    "docker",
-    "amazon web services (aws)",
-    "bash",
-    "kubernetes",
-    "python",
-    "linux",
-    "ansible",
-    "git",
-    "new relic apm"
-  ],
-  "software developer": [
-    "game development",
-    "web technologies",
-    "system designing",
+    "spark",
+    "hadoop",
     "cloud computing",
-    "hacking",
-    "python",
-    "app development",
-    "r programming",
-    "machine learning",
-    "information security"
-  ],
-  "production engineer": [
-    "machine learning skills",
-    "product knowledge",
-    "risk management skills",
-    "python",
-    "problem solving skills",
-    "negotiation skills",
-    "active listening",
-    "analytical skills",
-    "critical thinking",
-    "communication skills"
-  ],
-  "software engineer 1": [
-    "java development",
-    "codeigniter)",
-    "web development (php",
-    "android app development",
-    "graphic desiging"
-  ],
-  "sales manager": [
-    "business knowledge",
-    "accounting skills",
-    "gathering information",
-    "critical thinking",
-    "social media marketing",
-    "artistic/creative skills",
-    "active listening",
-    "communication skills"
-  ],
-  "junior software engineer": [
-    "editing",
-    "architecture",
-    "sql",
-    "artificial intelligence",
-    "sales",
-    "programming language c",
-    "programming",
-    "designing skills",
-    "communication skills",
-    "machine learning skills"
-  ],
-  "mapping": [
-    "java",
-    "python",
-    "problem solving skills",
-    "sql",
-    "programming"
-  ],
-  "functional consultant": [
-    "people management",
-    "leadership",
-    "product knowledge",
-    "machine learning skills",
-    "civil & criminal law",
-    "risk management skills",
-    "business knowledge",
-    "problem solving skills",
-    "python",
-    "data visualization"
-  ],
-  "associate scm": [
-    "business knowledge",
-    "product knowledge",
-    "sales",
-    "negotiation skills"
-  ],
-  "engineer": [
-    "designing skills",
-    "writing",
-    "ml",
-    "work under pressure",
-    "critical thinking",
-    "gathering informing",
+    "database design",
+    "etl",
     "analytical skills",
     "communication skills",
-    "machine learning skills",
-    "product knowledge"
-  ],
-  "company secretary": [
-    "company secretarial work",
-    "teamwork",
-    "time management",
-    "company law",
-    "due diligence",
-    "regulatory compliance",
-    "corporate law",
-    "industrial and labour law",
-    "corporate social responsibility",
-    "statutory compliances"
-  ],
-  "programmer analyst trainee (pat)": [
-    "client management",
-    "active listening",
-    "programming",
-    "good communication skills",
-    "communication skills"
-  ],
-  "programmer": [
-    "sql",
-    "gathering information",
-    "active listening",
-    "editing",
-    "mass communication",
-    "content creation",
-    "programming",
-    "javascript",
-    "java",
     "problem solving skills"
   ],
-  "risk analyst": [
-    "risk managing",
-    "gathering informing",
-    "analytical skills",
-    "sql"
-  ],
-  "data entry": [
-    "active listening",
-    "negotiation skills",
-    "c++",
-    "writing skills",
-    "communication skills"
-  ],
-  "associate software engineer": [
-    "java",
-    "gathering information",
+  "teacher": [
     "communication skills",
-    "python",
-    "sql",
-    "critical thinking",
-    "c++",
+    "teaching",
+    "subject knowledge",
+    "patience",
+    "interpersonal skills",
+    "curriculum development",
+    "classroom management",
+    "problem solving skills",
+    "creativity",
+    "adaptability"
+  ],
+  "lecturer": [
+    "communication skills",
+    "teaching",
+    "research skills",
+    "subject expertise",
+    "academic writing",
+    "curriculum development",
+    "analytical skills",
     "presentation skills",
-    "programming",
-    "stack web development"
-  ],
-  "data scientist-intern": [
-    "business knowledge",
-    "python",
-    "sql",
-    "programming",
-    "analytical skills",
-    "communication skills"
-  ],
-  "data analyst": [
-    "sql",
-    "python",
-    "analytical skills",
-    "excel",
-    "problem solving skills",
-    "machine learning skills",
-    "data visualization",
-    "communication skills",
-    "programming",
-    "team work"
-  ],
-  "regional sales manager": [
-    "people management",
-    "product knowledge",
-    "sales",
-    "business knowledge",
-    "social media marketing",
-    "communication skills"
-  ],
-  "product manager": [
-    "agile methodologies",
-    "usability testing",
-    "digital marketing",
-    "business development",
-    "microsoft officebentley inroadsproduct requirements",
-    "user stories",
-    "research",
-    "product innovation",
-    "product management",
-    "c++"
-  ],
-  "engineer-power electronics": [
-    "matlab",
-    "plc",
-    "simulink",
-    "power electronics",
-    "industrial control",
-    "inverters",
-    "switchgear",
-    "variable frequency drives",
-    "keil",
-    "kicad"
-  ],
-  "publishing executive": [
-    "people management",
-    "editing",
-    "sql",
-    "programming",
-    "c++",
-    "communication skills"
-  ],
-  "techno commercial": [
-    "artificial intelligence",
-    "machine learning skills",
-    "python",
-    "sql",
-    "analytical skills"
-  ],
-  "advocate": [
-    "machine learning skills",
-    "people management",
-    "civil & criminal law",
-    "negotiation skills",
-    "active listening"
-  ],
-  "electrician": [
-    "product knowledge",
-    "problem solving skills",
-    "accounting skills",
-    "active listening",
-    "communication skills"
-  ],
-  "project manager": [
-    "business knowledge",
-    "active listening",
-    "communication skills",
-    "risk management skills",
-    "problem solving skills",
-    "presentation skills",
-    "analytical skills",
-    "people management",
-    "leadership",
-    "client management"
-  ],
-  "system engineer": [
-    "core java",
-    "java",
-    "javascript",
-    "hadoop",
-    "sql",
-    "informatica",
-    "pl/sql",
-    "c++"
+    "mentoring",
+    "problem solving skills"
   ],
   "mechanical engineer": [
-    "team work",
-    "excel",
-    "python",
-    "leadership",
-    "work under pressure",
-    "active listening",
-    "interpersonal skills",
-    "gathering informing",
-    "reading",
-    "writing"
-  ],
-  "cs": [
-    "civil & criminal law",
-    "risk management skills",
-    "accounting skills",
-    "negotiation skills",
-    "finance related skills"
-  ],
-  "software engineer": [
-    "java",
-    "programming",
-    "python",
-    "sql",
-    "critical thinking",
-    "cloud computing",
-    "communication skills",
+    "autocad",
     "analytical skills",
-    "people management",
-    "designing skills"
-  ],
-  "operation & maintenance engineer": [
-    "people management",
-    "python",
     "problem solving skills",
-    "accounting skills",
-    "critical thinking",
-    "teaching",
-    "active listening",
-    "analytical skills",
-    "communication skills"
-  ],
-  "financial analyst": [
-    "financial modeling",
-    "financial analysis",
-    "business model development",
-    "sap successfactors",
-    "financial forecasting",
-    "corporate finance",
-    "equity research",
-    "financial statement analysis",
-    "business model innovationbusiness strategy",
-    "m&a analysis"
-  ],
-  "research associate": [
-    "cell culture",
-    "polymerase chain reaction (pcr)",
-    "molecular biology",
-    "microbiology",
-    "protein chemistry",
-    "western blotting",
-    "biochemistry",
-    "chromatography",
-    "molecular cloning",
-    "protein expression"
-  ],
-  "trainee developer": [
-    "cloud computing"
-  ],
-  "business analyst": [
-    "business knowledge",
-    "accounting skills",
-    "leadership",
     "communication skills",
-    "sql",
-    "team work",
-    "analytical skills",
-    "people management",
-    "problem solving skills",
-    "excel"
+    "matlab",
+    "solidworks",
+    "manufacturing",
+    "project management",
+    "attention to detail",
+    "technical drawing"
   ],
-  "sr. territory sales manager": [
-    "sales",
-    "business knowledge",
-    "excel",
-    "work under pressure",
-    "creativity skills",
-    "negotiation skills",
-    "market study",
-    "reading",
-    "leadership",
-    "writing"
-  ],
-  "lawyer-forensic investigations": [
-    "civil & criminal law"
-  ],
-  "assistent manger": [
-    "wealth management",
-    "accounting skills",
-    "gathering information",
-    "active listening",
-    "content creation",
-    "programming"
-  ],
-  "litigation": [
-    "civil & criminal law"
-  ],
-  "civil & structural engineer": [
-    "etabs",
-    "proeficiency in software like staad pro",
-    "construction management",
-    "gathering information",
-    "critical thinking",
-    "sap",
-    "active listening",
+  "finance staff": [
     "finance related skills",
+    "excel",
+    "accounting skills",
     "analytical skills",
-    "good communication skills"
+    "attention to detail",
+    "communication skills",
+    "problem solving skills",
+    "reporting",
+    "budgeting",
+    "sql"
   ],
-  "scientist": [
-    "python",
+  "general manager": [
+    "leadership",
+    "strategic planning",
+    "communication skills",
+    "financial management",
+    "people management",
+    "analytical skills",
+    "problem solving skills",
+    "business knowledge",
+    "negotiation skills",
+    "reporting"
+  ],
+  "production staff": [
+    "production planning",
+    "analytical skills",
+    "problem solving skills",
+    "communication skills",
+    "teamwork",
+    "lean manufacturing",
+    "quality control",
+    "attention to detail",
+    "microsoft office",
+    "reporting"
+  ],
+  "insurance agent": [
+    "sales",
+    "communication skills",
+    "finance related skills",
+    "negotiation skills",
+    "customer service",
+    "product knowledge",
+    "interpersonal skills",
+    "problem solving skills",
     "presentation skills",
-    "ai",
-    "ml",
-    "logical skills",
-    "work under pressure",
-    "critical thinking",
-    "team work",
-    "artistic skills",
-    "analytical skills"
-  ],
-  "business": [
-    "sales",
-    "people management",
-    "finance related skills",
-    "social media marketing",
-    "leadership",
-    "communication skills"
-  ],
-  "supply chain": [
-    "active listening"
-  ],
-  "associate it consultant": [
-    "people management",
-    "leadership",
-    "active listening",
-    "cloud computing"
-  ],
-  "buliding management system": [
-    "leadership",
-    "hardware skills",
-    "designing skills"
-  ],
-  "sales force": [
-    "java",
-    "cloud computing",
-    "critical thinking",
-    "active listening",
-    "programming",
-    "communication skills"
-  ],
-  "deputy warden": [
-    "machine learning skills",
-    "gathering information",
-    "interpersonal skills",
-    "medical knowledge",
-    "active listening",
-    "leadership",
     "analytical skills"
   ],
   "web developer": [
+    "html",
+    "css",
     "javascript",
-    "ajax",
-    "jquery",
+    "python",
+    "git",
+    "sql",
     "php",
-    "trello",
-    "codeignitor",
-    "angular",
-    "node.js",
-    "loopback",
-    "jira"
-  ],
-  "business consultant": [
-    "people management",
-    "sales",
-    "business knowledge",
-    "problem solving skills",
-    "logical skills",
-    "reading",
-    "communication skills"
-  ],
-  "teaching experience 5 years": [
-    "teaching experience"
-  ],
-  "asst. manager": [
-    "people management",
-    "risk management skills",
-    "business knowledge",
-    "problem solving skills",
-    "writing skills",
-    "client management",
-    "critical thinking",
-    "active listening",
-    "hospitality",
-    "leadership"
-  ],
-  "medical practitioner": [
-    "sales",
-    "editing",
-    "excel",
-    "subject knowledge",
-    "business knowledge",
-    "accounting skills",
-    "designing skills",
-    "logical skills",
-    "presentation skills",
-    "observation skills"
-  ],
-  "sub editor": [
-    "artistic/creative skills",
-    "accounting skills",
-    "gathering information",
-    "critical thinking",
-    "analytical skills",
-    "people management",
-    "editing",
-    "writing skills",
-    "mass communication",
-    "communication skills"
-  ],
-  "sub-editor": [
-    "artistic/creative skills",
-    "mass communication",
-    "editing"
-  ],
-  "maths content developer": [
-    "python",
-    "leadership",
-    "sql"
-  ],
-  "hr executive": [
-    "hr",
-    "negotiation skills",
+    "react",
     "communication skills",
-    "people management",
-    "interpersonal skills",
-    "active listening",
-    "finance related skills",
-    "good communication skills",
-    "writing",
-    "work under pressure"
-  ],
-  "civil engineer": [
-    "critical thinking",
-    "active listening",
-    "business knowledge",
-    "gathering information",
-    "artistic/creative skills",
-    "hardware skills",
-    "civil & criminal law",
-    "tableau",
-    "ai",
-    "python"
-  ],
-  "mahindra and mahindra financial services limited": [
-    "people management",
-    "leadership",
-    "sales",
-    "risk management skills",
-    "business knowledge",
-    "problem solving skills",
-    "accounting skills",
-    "negotiation skills",
-    "client management",
-    "artistic/creative skills"
-  ],
-  "r&d engineer": [
-    "python",
-    "java"
-  ],
-  "associate consultant": [
-    "sql",
-    "programming",
-    "communication skills",
-    "java",
-    "python",
-    "problem solving skills",
-    "leadership",
-    "good communication skills",
-    "business knowledge",
-    "critical thinking"
-  ],
-  "vfx artist": [
-    "diploma in visual effects"
-  ],
-  "plm consultant": [
-    "linux",
-    "java",
-    "subject knowledge",
-    "python",
-    "problem solving skills",
-    "sql",
-    "team work",
-    "programming",
-    "oracle"
-  ],
-  "quality engineer": [
-    "product knowledge",
-    "leadership",
-    "communication skills",
-    "people management",
-    "finance related skills",
-    "civil & criminal law",
-    "accounting skills",
-    "sales",
-    "business knowledge",
     "problem solving skills"
   ],
-  "ux designer": [
-    "product knowledge",
-    "problem solving skills",
-    "critical thinking",
-    "artistic/creative skills",
-    "leadership",
-    "designing skills"
-  ],
-  "swimming coach": [
-    "people management",
-    "product knowledge",
-    "hr",
-    "business knowledge",
-    "data visualization",
-    "sql",
-    "accounting skills",
-    "good communication skills",
-    "communication skills"
-  ],
-  "office assistant and acoounts": [
-    "people management",
-    "business knowledge",
-    "excel",
-    "problem solving skills",
-    "creativity skills",
-    "accounting skills",
-    "reporting",
-    "team work",
-    "presentation skills",
-    "leadership"
-  ],
-  "software programmer": [
-    "artificial intelligence",
-    "linux",
-    "java",
-    "cloud computing",
-    "problem solving skills",
-    "writing skills",
-    "sql",
-    "gathering information",
-    "critical thinking",
-    "c++"
-  ],
-  "assistant system engineer": [
-    "java",
-    "architecture",
-    "sql",
-    "accounting skills",
-    "gathering information",
-    "critical thinking",
-    "cloud computing",
-    "sales",
-    "civil & criminal law",
-    "presentation skills"
-  ],
-  "back-end developer": [
-    "java",
+  "data analyst": [
     "python",
-    "javascript",
-    "aws",
     "sql",
-    "programming"
-  ],
-  "maintenance engineer-mechanical": [
-    "people management",
-    "client management",
-    "negotiation skills",
-    "critical thinking",
-    "refinery operations",
-    "communication skills",
-    "mechanical maintenance"
-  ],
-  "planning manager": [
-    "people management",
     "excel",
-    "creativity skills",
-    "reading",
+    "data visualization",
+    "analytical skills",
+    "communication skills",
+    "problem solving skills",
+    "tableau",
+    "r programming",
+    "statistical analysis"
+  ],
+  "architect": [
+    "autocad",
+    "designing skills",
+    "creative thinking",
+    "communication skills",
+    "project management",
+    "revit",
+    "sketchup",
+    "presentation skills",
+    "attention to detail",
+    "3d modeling"
+  ],
+  "devops engineer": [
+    "linux",
+    "docker",
+    "kubernetes",
+    "git",
+    "cloud computing",
+    "ci/cd",
+    "python",
+    "problem solving skills",
+    "communication skills",
     "analytical skills"
   ],
-  "operator": [
-    "critical thinking",
-    "editing",
-    "programming"
-  ],
-  "associate technology l2": [
-    "problem solving skills",
-    "programming"
-  ],
-  "lab assistent": [
-    "negotiation skills",
-    "active listening",
-    "hardware skills",
-    "communication skills"
-  ],
-  "test engineer": [
-    "people management",
+  "sales manager": [
     "leadership",
-    "critical thinking",
-    "social media marketing",
-    "finance related skills",
-    "designing skills",
-    "communication skills"
-  ],
-  "marketing manager": [
     "sales",
-    "team work",
-    "reporting",
-    "leadership",
-    "business knowledge",
-    "product knowledge",
-    "accounting skills",
-    "c.i.t",
     "communication skills",
-    "editing"
+    "negotiation skills",
+    "analytical skills",
+    "team management",
+    "crm",
+    "problem solving skills",
+    "presentation skills",
+    "forecasting"
+  ],
+  "erp consultant": [
+    "sap",
+    "sql",
+    "communication skills",
+    "analytical skills",
+    "problem solving skills",
+    "business knowledge",
+    "presentation skills",
+    "project management",
+    "excel",
+    "documentation"
+  ],
+  "project manager": [
+    "project management",
+    "leadership",
+    "communication skills",
+    "analytical skills",
+    "problem solving skills",
+    "risk management skills",
+    "agile",
+    "presentation skills",
+    "stakeholder management",
+    "ms project"
+  ],
+  "financial analyst": [
+    "financial analysis",
+    "excel",
+    "analytical skills",
+    "sql",
+    "data visualization",
+    "communication skills",
+    "problem solving skills",
+    "forecasting",
+    "reporting",
+    "python"
   ],
   "data scientist": [
     "python",
-    "machine learning skills",
-    "sql",
-    "java",
-    "programming",
-    "analytical skills",
-    "data visualization",
-    "ml",
-    "critical thinking",
-    "artificial intelligence"
-  ],
-  "graduate quality engineer": [
-    "designing skills",
-    "team work",
-    "excel"
-  ],
-  "erp implementation": [
-    "hr",
-    "python",
-    "problem solving skills",
-    "sql",
-    "accounting skills",
-    "active listening",
-    "matlab",
-    "programming",
-    "designing skills"
-  ],
-  "customer operation associate": [
-    "people management",
-    "java",
-    "python",
-    "problem solving skills",
-    "sql",
-    "teaching",
-    "programming",
-    "leadership",
-    "analytical skills",
-    "communication skills"
-  ],
-  "structural engineer": [
-    "designing skills",
-    "people management",
-    "observation skills",
-    "active listening",
-    "communication skills"
-  ],
-  "qa analyst": [
-    "critical thinking",
-    "leadership",
-    "programming",
-    "full stack",
-    "sql"
-  ],
-  "sales": [
-    "analytical skills",
-    "artistic/creative skills",
-    "business knowledge",
-    "python",
-    "problem solving skills",
-    "communication skills",
-    "gathering information",
-    "java",
-    "editing",
-    "hr"
-  ],
-  "key account manager": [
-    "business knowledge",
-    "problem solving skills",
-    "writing skills",
-    "gathering information",
-    "presentation skills",
-    "artistic/creative skills",
-    "analytical skills",
-    "good communication skills"
-  ],
-  "trainee": [
-    "java",
-    "programming",
-    "sql",
-    "communication skills"
-  ],
-  "java developer": [
-    "java",
-    "programming",
-    "python",
-    "sql",
-    "problem solving skills",
-    "c++",
-    "interpersonal skills",
-    "building rapport",
-    "active listening",
-    "communication skills"
-  ],
-  "assistant system engineer (tcs)": [
-    "linux",
-    "risk management skills",
-    "cloud computing",
-    "problem solving skills",
-    "c++",
-    "critical thinking",
-    "presentation skills",
-    "programming",
-    "communication skills"
-  ],
-  "sr. executive in data management": [
-    "people management",
-    "machine learning skills",
-    "business knowledge",
-    "problem solving skills",
-    "python",
-    "data visualization",
-    "gathering information",
-    "critical thinking",
-    "negotiation skills",
-    "presentation skills"
-  ],
-  "automation in java lang": [
-    "java",
-    "sql",
-    "team work",
-    "presentation skills",
-    "programming",
-    "communication skills"
-  ],
-  "back end developer": [
-    "python",
-    "programming",
-    "sql",
-    "java",
-    "ml",
-    "logical skills",
-    "tableau",
-    "oracle",
-    "problem solving skills",
-    "linux"
-  ],
-  "mobile application developer": [
-    "php",
-    "javascript",
-    "programming language c",
-    "java",
-    "architecture",
-    "python",
-    "sql",
-    "c++"
-  ],
-  "doctor": [
-    "excel"
-  ],
-  "service advisor": [
-    "active listening",
-    "sales",
-    "hr",
-    "accounting skills",
-    "social media marketing",
-    "hardware skills",
-    "programming",
-    "communication skills"
-  ],
-  "asst finance manager": [
-    "finance related skills",
-    "accounting skills"
-  ],
-  "digital/social media marketer": [
-    "people management",
-    "work under pressure",
-    "python",
-    "creativity skills",
-    "team work",
-    "leadership",
-    "communication skills",
-    "business knowledge",
-    "digital marketing"
-  ],
-  "cis": [
-    "python"
-  ],
-  "programmer analyst": [
     "machine learning",
-    "cloud computing",
-    "game development",
-    "python",
-    "testing",
-    "data science",
-    "hadoop",
-    "web technologies",
-    "shell programming",
-    "database security"
-  ],
-  "operations management": [
-    "product knowledge",
-    "business knowledge",
-    "excel",
-    "logical skills",
-    "work under pressure",
-    "problem solving skills",
-    "creativity skills",
-    "accounting skills",
-    "risk managing",
-    "critical thinking"
-  ],
-  "sql developer": [
-    "excel",
-    "presentation skills",
-    "programming",
-    "teamwork",
-    "work under pressure",
-    "logical skills interpersonal skills",
-    "active listening",
-    "reading",
-    "tableau",
-    "python"
-  ],
-  "front end developer": [
-    "programming",
-    "work under pressure",
-    "active listening",
+    "sql",
+    "r programming",
+    "data visualization",
     "analytical skills",
-    "python",
-    "c++",
-    "java",
-    "subject knowledge",
-    "business knowledge",
-    "risk managing"
-  ],
-  "listing, marketting , stocking and selling": [
-    "product knowledge",
-    "sales",
-    "risk management skills",
-    "business knowledge",
-    "problem solving skills",
-    "client management"
-  ],
-  "aws architect": [
-    "zuul api gateway",
-    "docker",
-    "java enterprise edition",
-    "amazon ec2",
-    "spring boot",
-    "apache drill",
-    "oracle crm",
-    "spring mvc",
-    "angular",
-    "hibernate"
-  ],
-  "articleship": [
-    "business knowledge",
-    "work under pressure",
-    "accounting skills",
-    "negotiation skills",
-    "interpersonal skills"
-  ],
-  "dental surgeon": [
-    "medical knowledge",
-    "writing skills"
-  ],
-  "hardware pcb design engineer": [
-    "kicad",
-    "printed circuit board (pcb) design",
-    "electronic circuit design",
-    "arduino",
-    "ni multisim",
-    "eagle pcb",
-    "internet of things (iot)",
-    "electronics hardware design",
-    "orcad capture cis",
-    "ni labview"
-  ],
-  "production field": [
-    "people management",
-    "writing skills",
-    "accounting skills",
-    "critical thinking",
-    "active listening",
-    "leadership",
-    "hardware skills",
-    "designing skills",
-    "communication skills"
-  ],
-  "production supervisor": [
-    "people management",
-    "leadership",
+    "statistical analysis",
+    "deep learning",
+    "communication skills",
     "problem solving skills"
   ],
-  "cyber security analyst": [
-    "security information and event management (siem)",
-    "splunk",
-    "vulnerability scanning",
-    "threat & vulnerability management",
-    "cybersecurity",
-    "information security",
-    "burp suite",
-    "malware analysis",
-    "ethical hacking",
-    "metasploit"
-  ],
-  "account assistant": [
-    "sales",
-    "excel",
-    "logical skills",
-    "cost accounting",
-    "problem solving skills",
-    "accounting skills",
-    "market study",
-    "building rapport",
-    "active listening",
-    "writing"
-  ],
-  "python instructor": [
-    "artificial intelligence",
-    "machine learning skills",
-    "python",
-    "problem solving skills",
-    "data visualization",
-    "critical thinking",
-    "programming",
-    "leadership",
+  "product manager": [
     "analytical skills",
-    "communication skills"
-  ],
-  "crime reporter": [
-    "people management",
-    "civil & criminal law",
-    "business knowledge",
-    "gathering information",
-    "negotiation skills",
-    "mass communication",
+    "communication skills",
     "leadership",
-    "analytical skills",
-    "communication skills"
-  ],
-  "stock trader": [
-    "team work",
-    "excel",
-    "writing",
+    "problem solving skills",
     "presentation skills",
+    "project management",
+    "agile",
+    "product knowledge",
+    "business knowledge",
+    "stakeholder management"
+  ],
+  "public relations": [
+    "communication skills",
+    "writing skills",
+    "media relations",
+    "social media",
+    "crisis management",
+    "presentation skills",
+    "networking",
+    "analytical skills",
+    "creativity",
+    "research skills"
+  ],
+  "legal staff": [
+    "legal knowledge",
+    "analytical skills",
+    "writing skills",
+    "communication skills",
+    "research skills",
+    "attention to detail",
+    "negotiation skills",
+    "problem solving skills",
+    "documentation",
+    "compliance"
+  ],
+  "business analyst": [
+    "analytical skills",
+    "communication skills",
+    "problem solving skills",
+    "sql",
+    "excel",
+    "presentation skills",
+    "business knowledge",
+    "documentation",
+    "stakeholder management",
+    "agile"
+  ],
+  "civil engineer": [
+    "autocad",
+    "analytical skills",
+    "problem solving skills",
+    "communication skills",
+    "project management",
+    "structural analysis",
+    "surveying",
+    "construction management",
+    "attention to detail",
+    "microsoft office"
+  ],
+  "researcher": [
+    "research skills",
+    "analytical skills",
+    "writing skills",
+    "communication skills",
+    "critical thinking",
+    "data analysis",
+    "python",
+    "sql",
+    "statistical analysis",
     "problem solving skills"
   ],
-  "senior assistant delivery coordinator": [
-    "editing",
-    "hr",
-    "python",
-    "writing skills",
-    "accounting skills",
-    "programming",
-    "good communication skills"
-  ],
-  "modeler": [
-    "python",
-    "active listening",
-    "designing skills"
-  ],
-  "ba": [
-    "python",
-    "data visualization",
-    "sql",
-    "client management",
-    "good communication skills"
-  ],
-  "investment banking analyst": [
-    "supply chain management",
-    "market research",
-    "financial accounting",
-    "consumer behaviour",
-    "long-term customer relationships",
-    "commercialbanking",
-    "business process reengineering",
-    "working capital management",
-    "business analytics",
-    "retail marketing"
-  ],
-  "journalist": [
-    "business knowledge",
-    "writing skills",
-    "mass communication",
-    "artistic/creative skills",
-    "content creation",
-    "communication skills",
-    "programming",
-    "gathering informing"
-  ],
-  "junior sub editor": [
-    "editing",
-    "writing skills",
-    "mass communication",
-    "critical thinking",
-    "gathering information",
-    "artistic/creative skills",
-    "content creation",
-    "communication skills"
-  ],
-  "content creator": [
-    "editing",
-    "social media marketing",
-    "active listening",
-    "leadership",
-    "communication skills",
-    "people management",
-    "java",
-    "architecture",
-    "hr",
-    "cloud computing"
-  ],
-  "project coordinator": [
-    "business knowledge",
-    "product knowledge",
-    "active listening",
-    "communication skills"
-  ],
-  "det": [
-    "machine learning skills",
-    "social media marketing",
-    "designing skills"
-  ],
-  "mechanical supervisor": [
-    "people management",
-    "leadership"
-  ],
-  "test analyst": [
-    "sql",
-    "communication skills",
-    "people management",
-    "java",
-    "editing",
-    "risk management skills",
-    "python",
-    "problem solving skills",
+  "logistics staff": [
+    "logistics",
+    "supply chain",
     "analytical skills",
-    "gathering information"
-  ],
-  "senior pmo - data analyst": [
-    "sql",
-    "gathering information",
-    "critical thinking",
-    "cad/cae(autocad/catia/ansys/proe/seimensnx)",
-    "programming language c",
-    "presentation skills",
     "communication skills",
-    "people management",
-    "risk management skills",
-    "python"
-  ],
-  "site engineer": [
-    "business knowledge",
-    "critical thinking",
-    "people management",
-    "product knowledge",
     "problem solving skills",
-    "risk management skills",
-    "analytical skills",
+    "microsoft office",
     "excel",
-    "accounting skills",
-    "gathering informing"
-  ],
-  "developer": [
-    "programming",
-    "python",
-    "wealth management",
-    "machine learning skills",
-    "data visualization",
-    "artificial intelligence",
-    "teamwork",
-    "creativity skills",
-    "market study",
-    "leadership"
-  ],
-  "store keeper": [
-    "people management",
-    "leadership",
-    "active listening"
-  ],
-  "instrumentation and control engineer": [
-    "plc/scada/vlsi/dcs",
-    "hardware skills",
-    "plc/scada/dcs/vlsi",
-    "automation"
-  ],
-  "java full stack developer": [
-    "team work",
-    "programming",
-    "creativity skills"
-  ],
-  "chemist in pharmaceutical": [
-    "communication skills"
-  ],
-  "business developer": [
-    "product knowledge",
-    "sales",
-    "editing",
-    "excel",
-    "logical skills",
-    "work under pressure",
-    "problem solving skills",
-    "c++",
-    "mass communication",
-    "team work"
-  ],
-  "chartered accountant": [
-    "business knowledge",
-    "work under pressure",
-    "accounting skills",
-    "people management",
-    "cost accounting",
-    "reading",
-    "ai",
-    "excel",
-    "risk managing",
+    "organizational skills",
+    "attention to detail",
     "reporting"
   ],
-  "web developer and digital marketer": [
-    "artificial intelligence",
-    "machine learning skills",
-    "sales",
-    "php",
-    "business knowledge",
-    "aws",
-    "gathering information",
-    "critical thinking",
-    "social media marketing",
-    "artistic/creative skills"
-  ],
-  "customer service": [
-    "product knowledge",
-    "risk management skills",
+  "doctor": [
+    "medical knowledge",
+    "diagnostic skills",
+    "communication skills",
+    "empathy",
+    "clinical skills",
+    "problem solving skills",
+    "attention to detail",
+    "patient care",
     "analytical skills",
-    "good communication skills",
-    "communication skills"
+    "decision making"
   ],
-  "catalog associate": [
-    "people management",
+  "journalist": [
+    "writing skills",
+    "communication skills",
+    "research skills",
+    "analytical skills",
+    "interviewing",
     "editing",
-    "problem solving skills",
+    "storytelling",
+    "attention to detail",
+    "social media",
+    "critical thinking"
+  ],
+  "content creator": [
     "writing skills",
-    "gathering information",
-    "critical thinking",
-    "mass communication",
-    "active listening",
+    "creativity",
+    "communication skills",
+    "social media",
     "content creation",
-    "communication skills"
-  ],
-  "managing director": [
-    "risk managing",
-    "critical thinking",
-    "team work",
-    "leadership",
-    "gathering informing"
-  ],
-  "video labeling(artificial intelligence) and medical coding": [
-    "hr",
-    "sql",
-    "gathering information",
-    "critical thinking",
-    "mass communication",
-    "artistic/creative skills",
-    "cloud computing",
-    "artificial intelligence",
-    "presentation skills",
-    "designing skills"
-  ],
-  "admin": [
-    "editing",
-    "logical skills",
-    "accounting skills",
-    "critical thinking",
-    "team work",
-    "product knowledge",
-    "business knowledge",
-    "designing skills",
-    "observation skills",
-    "communication skills"
-  ],
-  "senior analyst": [
-    "critical thinking",
-    "analytical skills",
-    "sql",
-    "business knowledge"
-  ],
-  "quality assurance": [
-    "risk management skills",
-    "problem solving skills",
-    "data visualization",
-    "writing skills",
-    "gathering information",
-    "critical thinking",
-    "presentation skills",
-    "active listening",
-    "artistic/creative skills",
-    "good communication skills"
-  ],
-  "business development associate": [
-    "observation skills",
-    "sales",
-    "business knowledge",
-    "excel",
-    "logical skills",
-    "work under pressure",
-    "creativity skills",
-    "negotiation skills",
-    "market study",
-    "team work"
-  ],
-  "statistical programmer": [
-    "python",
-    "programming language c",
-    "programming",
-    "sas"
-  ],
-  "analyst": [
-    "analytical skills",
-    "people management",
-    "problem solving skills",
-    "writing skills",
-    "gathering information",
-    "critical thinking",
-    "active listening",
-    "accounting skills",
-    "negotiation skills",
-    "finance related skills"
-  ],
-  "lotus notes admin": [
-    "business knowledge",
-    "lotus notes",
-    "active listening"
-  ],
-  "senior technical recruiter, recruitment specialist, talent acquisition specialist (it)": [
-    "people management",
-    "hr",
-    "business knowledge",
-    "analytical skills",
-    "sql",
-    "client management",
-    "gathering information",
-    "critical thinking",
-    "negotiation skills",
-    "active listening"
-  ],
-  "linux administrator": [
-    "linux"
-  ],
-  "store assistant": [
-    "python",
-    "sql",
-    "active listening",
-    "matlab",
-    "good communication skills",
-    "programming",
-    "hardware skills",
-    "communication skills"
-  ],
-  "executive engineer": [
-    "machine learning skills",
-    "problem solving skills",
-    "python",
-    "analytical skills",
-    "sql",
-    "gathering information",
-    "critical thinking",
-    "active listening",
-    "programming",
-    "business knowledge"
-  ],
-  "network engineer": [
-    "product knowledge",
-    "gathering informing"
-  ],
-  "product development associate": [
-    "business knowledge",
-    "gathering information",
-    "presentation skills",
-    "content creation",
-    "analytical skills",
-    "designing skills"
-  ],
-  "team lead in mortgage banking": [
-    "people management",
-    "product knowledge",
-    "machine learning skills",
-    "risk management skills",
-    "python",
-    "problem solving skills",
-    "data visualization",
-    "presentation skills",
-    "matlab",
+    "photoshop",
+    "video editing",
+    "research skills",
+    "seo",
     "analytical skills"
   ],
-  "dot net developer": [
-    "people management",
-    "linux",
-    "observation skills",
-    "editing",
-    "business knowledge",
-    "excel",
-    "problem solving skills",
-    "work under pressure",
-    "sql",
-    "creativity skills"
-  ],
-  "receptionist in coaching center": [
-    "gathering information",
-    "critical thinking",
-    "teaching",
-    "active listening",
-    "leadership",
-    "programming",
-    "good communication skills",
-    "communication skills"
-  ],
-  "dancing": [
-    "artistic/creative skills"
-  ],
-  "research fellow": [
-    "molecular & cellular biology",
-    "immunology",
-    "cell biology",
-    "qrt-pcr",
-    "bioinformatics",
-    "microbial genetics",
-    "rna isolation",
-    "mammalian cell culture",
-    "elisa",
-    "proteomics"
-  ],
-  "not working": [
-    "java",
-    "editing",
-    "python",
-    "problem solving skills",
-    "c++",
-    "analytical skills",
-    "oracle"
-  ],
-  "assistent engineer": [
-    "risk management skills",
-    "designing skills",
-    "writing skills",
-    "accounting skills",
-    "active listening",
-    "hardware skills",
-    "mass communication"
-  ],
-  "ml engineer": [
-    "python",
-    "ml",
-    "ai",
-    "tableau",
-    "sql"
-  ],
-  "associate professional": [
-    "python",
-    "java",
-    "sql"
-  ],
-  "electronics engineer- research analyst": [
-    "android and ios app developer",
-    "aurdino",
-    "integrated circuits",
-    "lead generation"
-  ],
-  "mis executive": [
-    "excel",
-    "sales",
-    "work under pressure"
-  ],
-  "hdfc bank": [
-    "business knowledge",
-    "finance related skills",
-    "java",
-    "sql"
-  ],
-  "lab technician -food safety & quality": [
-    "good manufacturing practice (gmp)",
-    "food technology",
-    "problem solving skills",
-    "quality assurance",
-    "food safety",
-    "critical thinking",
-    "hazard analysis and critical control points (haccp)",
-    "food microbiology"
-  ],
-  "legal associate": [
-    "critical thinking",
-    "civil & criminal law"
-  ],
-  "power": [
-    "data visualization",
-    "sql"
-  ],
-  "still working jbm auto pvt ltd company engineering quality department": [
-    "machine learning skills",
-    "business knowledge",
-    "writing skills",
-    "designing skills",
-    "communication skills"
-  ],
-  "request proposal manager": [
-    "people management",
-    "java",
-    "python",
-    "ml",
-    "problem solving skills",
-    "work under pressure",
-    "sql",
-    "negotiation skills",
-    "critical thinking",
-    "team work"
-  ],
-  "business development manager": [
-    "people management",
-    "sales",
-    "business knowledge",
-    "gathering information",
-    "leadership",
+  "human resources": [
     "communication skills",
-    "sql",
-    "critical thinking",
-    "mass communication",
-    "artistic/creative skills"
-  ],
-  "traniee": [
-    "people management",
-    "editing",
-    "business knowledge",
-    "excel",
-    "work under pressure",
-    "team work",
-    "presentation skills",
-    "reading",
-    "leadership",
-    "designing skills"
-  ],
-  "associate engineer - controls & software": [
-    "writing skills",
-    "gathering information",
-    "critical thinking",
-    "c++",
-    "matlab",
-    "good communication skills",
-    "programming",
-    "hardware skills"
-  ],
-  "safety officer": [
-    "people management",
-    "business knowledge",
-    "risk managing",
-    "work under pressure",
-    "wealth management",
-    "team work",
     "interpersonal skills",
+    "people management",
+    "analytical skills",
+    "hr",
+    "recruitment",
+    "microsoft office",
+    "excel",
+    "problem solving skills",
     "leadership"
   ],
-  "sales service engineer-electrical": [
-    "variable frequency drives",
-    "automation",
-    "electrical design"
-  ],
-  "young horticulture expert": [
-    "people management",
-    "hr",
-    "risk management skills",
-    "business knowledge",
-    "writing skills",
-    "negotiation skills",
-    "critical thinking",
-    "active listening",
-    "leadership",
-    "analytical skills"
-  ],
-  "back office executive": [
-    "critical thinking",
-    "good communication skills",
-    "artistic/creative skills"
-  ],
-  "salem farmers producer company/current job appen": [
-    "c++"
-  ],
-  "clinical research associate": [
-    "drug discovery",
-    "pharmaceutics",
-    "pharmacovigilance",
-    "clinical research",
-    "gmp",
-    "good clinical practice (gcp)",
-    "good laboratory practice (glp)",
-    "high-performance liquid chromatography (hplc)",
-    "cro managementcro management",
-    "life sciences"
-  ],
-  "accountent": [
-    "critical thinking",
-    "editing",
-    "negotiation skills"
-  ],
-  "bms executive": [
-    "problem solving skills",
-    "java",
-    "matlab"
-  ],
-  "entrepreneur": [
-    "business knowledge",
-    "accounting skills"
-  ],
-  "civil design engineer": [
-    "etabs",
-    "proeficiency in software like staad pro"
-  ],
-  "quality control engineer": [
-    "people management",
-    "product knowledge",
-    "business knowledge",
-    "problem solving skills",
-    "analytical skills",
-    "good communication skills"
-  ],
-  "software tester": [
-    "java",
-    "sql",
-    "product knowledge",
-    "gathering information",
-    "editing",
-    "business knowledge",
-    "problem solving skills",
-    "team work",
-    "automation",
-    "programming"
-  ],
-  "product engineer (ai/ml)": [
-    "java",
-    "sql",
-    "accounting skills",
-    "gathering information",
-    "critical thinking",
-    "cloud computing",
-    "artificial intelligence",
-    "business knowledge",
-    "presentation skills",
-    "programming"
-  ],
-  "mahendra next wealth it pvt ltd.malasamuthiram": [
-    "writing skills"
-  ],
-  "sale executive": [
-    "hardware skills",
-    "active listening",
-    "accounting skills"
-  ],
-  "embedded developer": [
-    "leadership skills",
-    "team work",
-    "presentation skills",
-    "programming"
-  ],
-  "project engineer": [
-    "problem solving skills",
-    "writing skills",
-    "gathering information",
-    "critical thinking",
-    "interpersonal skills",
-    "presentation skills",
-    "active listening",
-    "artistic/creative skills",
-    "matlab",
-    "good communication skills"
-  ],
-  "desktop support engineer": [
-    "active listening",
-    "hardware skills"
-  ],
-  "vfx designer": [
-    "product knowledge",
-    "java",
-    "problem solving skills",
-    "accounting skills",
-    "active listening",
-    "programming",
-    "hardware skills"
-  ],
-  "hr admin": [
-    "communication skills"
-  ],
-  "medical representative": [
-    "people management",
-    "product knowledge",
-    "sales",
-    "risk management skills",
-    "business knowledge",
-    "problem solving skills",
-    "critical thinking",
-    "active listening",
-    "artistic/creative skills",
-    "finance related skills"
-  ],
-  "back end operations": [
-    "python",
-    "ml",
-    "accounting skills"
-  ],
-  "store manager": [
-    "business knowledge",
-    "people management",
-    "leadership"
-  ],
-  "associate": [
-    "mechanical maintenance",
-    "linux",
-    "java",
-    "sql",
-    "designing skills",
-    "cloud computing"
-  ],
-  "law intern": [
-    "civil & criminal law",
-    "good communication skills"
-  ],
-  "process exceutive": [
-    "hr",
-    "problem solving skills",
-    "writing skills",
-    "negotiation skills",
-    "teaching",
-    "leadership",
-    "communication skills"
-  ],
-  "mechine learning engineer": [
-    "python",
-    "artificial intelligence",
-    "risk management skills"
-  ],
-  "self employed": [
-    "business knowledge",
-    "reporting",
-    "risk managing"
-  ],
-  "cultfit": [
-    "hardware skills"
-  ],
-  "project intern": [
-    "python",
-    "data visualization",
-    "sql",
-    "programming",
-    "analytical skills"
-  ],
-  "marketing executive": [
-    "people management",
-    "product knowledge",
-    "sales",
-    "excel",
-    "accounting skills",
-    "gathering information",
-    "cad/cae(autocad/catia/ansys/proe/seimensnx)",
-    "presentation skills",
+  "video editor": [
+    "video editing",
+    "premiere pro",
+    "after effects",
+    "creativity",
     "communication skills",
-    "kepemimpinan"
+    "storytelling",
+    "attention to detail",
+    "color grading",
+    "motion graphics",
+    "analytical skills"
   ],
-  "clothes designer": [
-    "team work"
-  ],
-  "i m a marketing head": [
-    "hr",
-    "risk management skills",
-    "business knowledge",
-    "problem solving skills",
-    "accounting skills",
-    "gathering information",
-    "hospitality",
-    "leadership",
+  "quality assurance engineer": [
+    "testing",
     "analytical skills",
-    "hardware skills"
-  ],
-  "motor controller": [
-    "leadership",
-    "artistic/creative skills"
-  ],
-  "saleforce developer": [
-    "python",
-    "cloud computing",
-    "communication skills"
-  ],
-  "billing engineer": [
-    "people management",
-    "business knowledge",
+    "attention to detail",
     "problem solving skills",
+    "communication skills",
+    "documentation",
     "python",
-    "analytical skills",
-    "data visualization",
+    "selenium",
     "sql",
-    "critical thinking",
-    "presentation skills",
-    "active listening"
+    "agile"
   ],
-  "telecaller": [
-    "python",
+  "ui ux designer": [
+    "figma",
+    "designing skills",
+    "creative thinking",
+    "communication skills",
+    "analytical skills",
+    "user research",
+    "prototyping",
+    "adobe xd",
     "problem solving skills",
-    "product knowledge",
-    "designing skills"
-  ],
-  "ios developer": [
-    "ios",
-    "problem solving skills",
-    "c++",
-    "team work",
-    "programming",
-    "designing skills"
+    "presentation skills"
   ],
   "accountant": [
     "accounting skills",
-    "product knowledge",
-    "data visualization",
-    "hardware skills"
-  ],
-  "material planner": [
-    "java",
-    "negotiation skills",
-    "critical thinking",
-    "active listening",
-    "analytical skills",
-    "designing skills",
-    "communication skills"
-  ],
-  "front end java developer": [
-    "teamwork",
     "excel",
-    "work under pressure",
-    "logical skills interpersonal skills",
-    "presentation skills",
-    "active listening",
-    "reading",
-    "programming"
+    "analytical skills",
+    "finance related skills",
+    "attention to detail",
+    "problem solving skills",
+    "communication skills",
+    "tax knowledge",
+    "reporting",
+    "audit"
   ],
-  "field sales officer": [
-    "product knowledge",
+  "marketing staff": [
+    "communication skills",
+    "analytical skills",
+    "excel",
+    "presentation skills",
+    "marketing",
+    "creativity",
+    "problem solving skills",
+    "social media",
+    "market research",
+    "reporting"
+  ],
+  "account executive": [
     "sales",
+    "communication skills",
+    "negotiation skills",
+    "crm",
+    "relationship management",
+    "product knowledge",
+    "problem solving skills",
+    "presentation skills",
+    "analytical skills",
+    "customer service"
+  ],
+  "mobile developer": [
+    "java",
+    "kotlin",
+    "swift",
+    "flutter",
+    "react native",
+    "python",
+    "git",
+    "problem solving skills",
+    "communication skills",
+    "analytical skills"
+  ],
+  "digital marketing": [
+    "digital marketing",
+    "seo",
+    "google analytics",
+    "communication skills",
+    "analytical skills",
+    "content creation",
+    "social media marketing",
+    "excel",
+    "copywriting",
+    "presentation skills"
+  ],
+  "operations manager": [
+    "leadership",
+    "analytical skills",
+    "communication skills",
+    "problem solving skills",
+    "process improvement",
+    "excel",
+    "project management",
+    "people management",
+    "reporting",
+    "business knowledge"
+  ],
+  "tutor": [
+    "communication skills",
+    "teaching",
+    "subject knowledge",
+    "patience",
+    "interpersonal skills",
+    "analytical skills",
+    "problem solving skills",
+    "adaptability",
+    "mentoring",
+    "microsoft office"
+  ],
+  "investment analyst": [
+    "financial analysis",
+    "excel",
+    "analytical skills",
+    "sql",
+    "market research",
+    "communication skills",
+    "problem solving skills",
+    "valuation",
+    "presentation skills",
+    "python"
+  ],
+  "retail staff": [
+    "customer service",
+    "communication skills",
+    "sales",
+    "product knowledge",
+    "inventory management",
+    "cash handling",
+    "teamwork",
+    "problem solving skills",
+    "attention to detail",
+    "adaptability"
+  ],
+  "pharmacist": [
+    "pharmacy",
+    "medical knowledge",
+    "analytical skills",
+    "communication skills",
+    "attention to detail",
+    "patient counseling",
+    "compliance",
+    "problem solving skills",
+    "teamwork",
+    "microsoft office"
+  ],
+  "entrepreneur": [
+    "leadership",
+    "communication skills",
     "business knowledge",
     "problem solving skills",
-    "python",
-    "sql",
-    "accounting skills",
-    "gathering information",
-    "client management",
-    "social media marketing"
+    "analytical skills",
+    "financial management",
+    "marketing",
+    "networking",
+    "creativity",
+    "resilience"
   ],
-  "ces-cae- fea analyst": [
-    "cad/cae(autocad/catia/ansys/proe/seimensnx)"
+  "machine learning engineer": [
+    "machine learning",
+    "python",
+    "deep learning",
+    "tensorflow",
+    "pytorch",
+    "sql",
+    "analytical skills",
+    "data visualization",
+    "communication skills",
+    "problem solving skills"
+  ],
+  "admin officer": [
+    "microsoft office",
+    "communication skills",
+    "organizational skills",
+    "data entry",
+    "problem solving skills",
+    "excel",
+    "attention to detail",
+    "time management",
+    "scheduling",
+    "filing"
   ],
   "database administrator": [
-    "data science",
-    "game development",
-    "cloud computing",
-    "hacking",
-    "r programming",
-    "web technologies",
-    "information security",
-    "database security",
-    "app development",
-    "full stack"
-  ],
-  "production specialist": [
-    "team work",
-    "building rapport",
-    "interpersonal skills",
-    "active listening",
-    "leadership"
-  ],
-  "mechanical product developer": [
-    "people management",
-    "leadership",
-    "product knowledge",
-    "editing",
-    "risk management skills",
-    "problem solving skills",
-    "negotiation skills",
-    "critical thinking",
-    "mass communication",
-    "interpersonal skills"
-  ],
-  "general masdor": [
-    "product knowledge",
-    "hardware skills"
-  ],
-  "senior associate": [
-    "c++",
-    "java",
-    "programming"
-  ],
-  "compliance engineer": [
-    "critical thinking",
-    "problem solving skills",
-    "product knowledge",
-    "analytical skills"
-  ],
-  "asp.net developer": [
-    "python",
     "sql",
-    "ml",
-    "ai",
-    "java",
+    "python",
+    "database design",
+    "analytical skills",
+    "problem solving skills",
     "linux",
-    "product knowledge",
-    "observation skills",
-    "problem solving skills",
-    "work under pressure"
-  ],
-  "process executive-data": [
-    "subject knowledge",
-    "python",
-    "ml",
-    "logical skills",
-    "sql",
-    "critical thinking",
-    "team work",
-    "presentation skills",
-    "programming",
-    "analytical skills"
-  ],
-  "active trading service": [
-    "problem solving skills",
-    "accounting skills",
-    "finance related skills",
-    "presentation skills",
-    "leadership"
-  ],
-  "computerized accounting": [
-    "editing",
-    "architecture",
-    "business knowledge",
-    "problem solving skills",
-    "python",
-    "writing skills",
-    "accounting skills",
-    "mass communication",
-    "presentation skills",
-    "artistic/creative skills"
-  ],
-  "loco pilot": [
-    "subject knowledge",
-    "c++",
-    "reading",
-    "communication skills"
-  ],
-  "dietician": [
-    "designing skills"
-  ],
-  "associate operations processor-1": [
-    "people management",
-    "leadership",
-    "hr",
-    "business knowledge",
-    "problem solving skills",
-    "writing skills",
-    "accounting skills",
-    "critical thinking",
-    "active listening",
-    "artistic/creative skills"
-  ],
-  "sr. political analyst": [
-    "people management",
-    "problem solving skills",
-    "writing skills",
-    "mass communication",
-    "social media marketing",
-    "content creation",
-    "analytical skills"
-  ],
-  "buisness devlopment excutive": [
-    "pgdca"
-  ],
-  "operations specialist": [
-    "artistic/creative skills",
-    "content creation",
-    "problem solving skills",
-    "sql",
-    "critical thinking",
-    "analytical skills",
-    "communication skills"
-  ],
-  "tata projects ltd": [
-    "machine learning skills",
-    "product knowledge",
-    "python",
-    "cloud computing",
-    "sql",
-    "critical thinking",
-    "programming",
-    "analytical skills",
-    "communication skills"
-  ],
-  "testing engineer": [
-    "writing skills",
-    "presentation skills",
-    "active listening",
-    "good communication skills",
+    "backup and recovery",
+    "performance tuning",
     "communication skills",
-    "people management",
-    "machine learning skills",
-    "java",
-    "business knowledge",
-    "python"
+    "oracle"
   ],
-  "associate system engineer": [
-    "leadership",
-    "gathering information",
+  "office staff": [
+    "microsoft office",
+    "communication skills",
+    "data entry",
+    "organizational skills",
+    "attention to detail",
+    "filing",
+    "time management",
+    "teamwork",
+    "typing",
+    "scheduling"
+  ],
+  "technician": [
+    "technical skills",
+    "problem solving skills",
+    "attention to detail",
+    "communication skills",
+    "maintenance",
+    "troubleshooting",
+    "analytical skills",
+    "teamwork",
+    "safety awareness",
+    "documentation"
+  ],
+  "safety officer": [
+    "safety management",
+    "risk management skills",
     "analytical skills",
     "communication skills",
-    "machine learning skills",
-    "python",
     "problem solving skills",
-    "sql",
-    "critical thinking",
-    "negotiation skills"
+    "regulatory compliance",
+    "documentation",
+    "training delivery",
+    "attention to detail",
+    "reporting"
   ],
-  "vlsi developer": [
-    "core skills",
-    "programming"
-  ],
-  "graphic designer": [
-    "2d/3d animation"
-  ],
-  "senior chemist": [
-    "people management",
-    "civil & criminal law"
-  ],
-  "quality analyst": [
-    "editing",
-    "python",
-    "data visualization",
-    "sql",
-    "gathering information",
-    "c++",
-    "artistic/creative skills",
-    "programming",
-    "hardware skills",
-    "designing skills"
-  ],
-  "dance teacher in dehli public school jankipuram lucknow": [
-    "teaching",
-    "artistic/creative skills"
-  ],
-  "teaching assistant-biotechnology": [
-    "structural biology. nucleic acid - protein interactions. data analysis",
-    "molecular biology"
-  ],
-  "aws developer": [
-    "leadership skills",
-    "team work",
-    "presentation skills",
-    "programming"
-  ],
-  "litigation lawyer": [
-    "civil & criminal law"
-  ],
-  "executive": [
-    "gathering information"
-  ],
-  "team leader": [
-    "people management",
-    "risk management skills",
-    "problem solving skills",
-    "client management",
-    "mass communication",
-    "leadership",
-    "communication skills"
-  ],
-  "application developer": [
-    "machine learning skills",
-    "python",
-    "aws",
-    "sql",
-    "programming"
-  ],
-  "flipkart customer care executive": [
-    "product knowledge",
-    "business knowledge",
-    "writing skills",
-    "negotiation skills",
-    "active listening",
-    "communication skills"
-  ],
-  "maintenance engineer": [
-    "people management",
-    "java",
-    "risk management skills",
-    "problem solving skills",
-    "sql",
-    "gathering information",
-    "artistic/creative skills",
-    "programming",
-    "leadership",
-    "analytical skills"
-  ],
-  "maintenance engineer-electrical": [
-    "power system engineering",
-    "etabs",
-    "proeficiency in software like staad pro"
-  ],
-  "system administrator": [
-    "java",
-    "amazon web services (aws)sql"
-  ],
-  "ast.purchase manager": [
-    "product knowledge",
-    "problem solving skills",
-    "negotiation skills",
-    "leadership",
-    "good communication skills"
-  ],
-  "it operations": [
-    "editing",
-    "risk management skills",
-    "python",
-    "sql",
-    "designing skills",
-    "machine learning skills",
-    "data visualization",
-    "problem solving skills",
-    "c++"
-  ],
-  "application development analyst": [
-    "java",
-    "hr",
-    "gathering information",
-    "artistic/creative skills",
-    "programming",
-    "hardware skills"
-  ],
-  "site civil engineer": [
-    "project management"
-  ],
-  "school accountant": [
-    "business knowledge",
-    "accounting skills"
-  ],
-  "dance teacher": [
-    "editing",
-    "writing skills",
+  "quality control": [
+    "quality management",
     "analytical skills",
-    "artistic/creative skills"
-  ],
-  "plm engineer": [
-    "people management",
-    "product knowledge",
-    "risk management skills",
-    "business knowledge",
+    "attention to detail",
     "problem solving skills",
-    "client management",
-    "gathering information",
-    "leadership",
-    "good communication skills",
-    "communication skills"
-  ],
-  "technical recruiter": [
-    "hr"
-  ],
-  "associate engineer - devops": [
-    "product knowledge",
-    "editing",
-    "subject knowledge",
-    "business knowledge",
-    "problem solving skills",
-    "logical skills",
-    "work under pressure",
-    "negotiation skills",
-    "mass communication",
-    "team work"
-  ],
-  "data science and game design trainer": [
-    "java",
-    "editing",
-    "hr",
-    "sql",
-    "gathering information",
-    "critical thinking",
-    "mass communication",
-    "artistic/creative skills",
-    "business knowledge",
-    "presentation skills"
-  ],
-  "i was working as dean r n d": [
-    "artificial intelligence",
-    "leadership",
-    "python",
-    "problem solving skills",
-    "data visualization",
-    "negotiation skills",
-    "critical thinking",
-    "interpersonal skills",
-    "teaching",
-    "presentation skills"
-  ],
-  "zigna ai pvt ltd": [
-    "artificial intelligence",
-    "machine learning skills",
-    "python",
-    "cloud computing",
-    "data visualization",
-    "writing skills",
-    "sql",
-    "c++",
-    "critical thinking",
-    "programming"
-  ],
-  "corporate and disputes lawyer": [
-    "civil & criminal law"
-  ],
-  "quality assurances engineer": [
-    "machine learning skills",
-    "product knowledge",
-    "risk management skills",
-    "python",
-    "excel",
-    "programming"
-  ],
-  "process operations engineer": [
-    "problem solving skills",
-    "process safety management"
-  ],
-  "tax consultant": [
-    "financial metrics",
-    "financial forecasting",
-    "corporate finance",
-    "financial accounting",
-    "business analysis",
-    "back reconciliation",
-    "financial modelling",
-    "accounts receivable",
-    "financial structuring",
-    "financial planning"
-  ],
-  "tri": [
-    "business knowledge",
-    "critical thinking",
-    "team work",
-    "active listening",
-    "leadership",
-    "gathering informing"
-  ],
-  "junior architect": [
-    "people management",
-    "news gathering",
-    "product knowledge",
-    "ai",
-    "business knowledge",
-    "work under pressure",
-    "negotiation skills",
-    "critical thinking",
-    "active listening",
-    "leadership"
-  ],
-  "traning and development": [
-    "artificial intelligence",
-    "analytical skills",
-    "programming",
-    "sql"
-  ],
-  "real e-state agent": [
-    "business knowledge",
-    "people management",
-    "gathering informing",
-    "accounting skills"
+    "communication skills",
+    "documentation",
+    "testing",
+    "reporting",
+    "iso standards",
+    "teamwork"
   ],
   "it support": [
-    "computer hardware",
-    "l3 printer",
-    "excel",
-    "negotiation skills",
-    "leadership",
-    "networking basic",
-    "microsoft windows",
-    "communication skills"
-  ],
-  "associative staff": [
-    "people management",
-    "hr",
+    "communication skills",
+    "problem solving skills",
+    "networking",
+    "windows os",
     "active listening",
-    "programming",
+    "troubleshooting",
+    "customer service",
     "analytical skills",
-    "hardware skills"
+    "linux",
+    "microsoft office"
   ],
-  "digital marketing executive": [
-    "problem solving skills",
-    "writing skills",
-    "critical thinking",
-    "teaching",
-    "active listening"
-  ],
-  "fruit business": [
+  "store manager": [
+    "leadership",
     "sales",
-    "python",
+    "inventory management",
+    "customer service",
+    "team management",
     "problem solving skills",
-    "accounting skills",
-    "team work",
-    "artistic skills",
-    "writing",
-    "designing skills",
-    "communication skills"
-  ],
-  "program engineering (it)": [
-    "machine learning skills",
-    "business knowledge",
-    "problem solving skills",
-    "python",
-    "data visualization",
-    "sql",
-    "negotiation skills",
-    "critical thinking",
-    "interpersonal skills",
-    "active listening"
-  ],
-  "apprentice dp world navi mumbai": [
-    "sql",
-    "critical thinking",
-    "programming",
     "analytical skills",
-    "communication skills"
+    "communication skills",
+    "budgeting",
+    "reporting"
+  ],
+  "graphic designer": [
+    "photoshop",
+    "illustrator",
+    "designing skills",
+    "creativity",
+    "communication skills",
+    "figma",
+    "adobe xd",
+    "typography",
+    "attention to detail",
+    "presentation skills"
+  ],
+  "automotive technician": [
+    "mechanical skills",
+    "troubleshooting",
+    "attention to detail",
+    "communication skills",
+    "problem solving skills",
+    "diagnostic tools",
+    "maintenance",
+    "teamwork",
+    "safety awareness",
+    "technical skills"
+  ],
+  "supply chain staff": [
+    "supply chain",
+    "analytical skills",
+    "communication skills",
+    "excel",
+    "problem solving skills",
+    "negotiation skills",
+    "vendor management",
+    "inventory management",
+    "reporting",
+    "attention to detail"
+  ],
+  "healthcare staff": [
+    "medical knowledge",
+    "communication skills",
+    "patient care",
+    "empathy",
+    "teamwork",
+    "attention to detail",
+    "problem solving skills",
+    "clinical skills",
+    "time management",
+    "microsoft office"
+  ],
+  "operations staff": [
+    "communication skills",
+    "analytical skills",
+    "problem solving skills",
+    "organizational skills",
+    "microsoft office",
+    "excel",
+    "teamwork",
+    "attention to detail",
+    "reporting",
+    "time management"
+  ],
+  "recruiter": [
+    "communication skills",
+    "interpersonal skills",
+    "hr",
+    "analytical skills",
+    "sourcing",
+    "interviewing",
+    "linkedin",
+    "problem solving skills",
+    "networking",
+    "presentation skills"
+  ],
+  "manufacturing staff": [
+    "manufacturing",
+    "analytical skills",
+    "problem solving skills",
+    "teamwork",
+    "attention to detail",
+    "quality control",
+    "lean manufacturing",
+    "safety awareness",
+    "communication skills",
+    "documentation"
+  ],
+  "tax staff": [
+    "accounting skills",
+    "taxation",
+    "excel",
+    "analytical skills",
+    "attention to detail",
+    "communication skills",
+    "problem solving skills",
+    "compliance",
+    "reporting",
+    "finance related skills"
+  ],
+  "training staff": [
+    "communication skills",
+    "presentation skills",
+    "curriculum design",
+    "facilitation",
+    "analytical skills",
+    "instructional design",
+    "microsoft office",
+    "problem solving skills",
+    "interpersonal skills",
+    "leadership"
   ],
   "technical writer": [
-    "work under pressure",
-    "team work",
-    "interpersonal skills",
-    "presentation skills",
-    "writing"
-  ],
-  "junior developer": [
-    "java",
-    "wealth management"
-  ],
-  "specialist programmer": [
-    "mysql",
-    "digital marketing",
-    "c++",
-    "data structures",
-    "python (programming language)",
-    "programming",
-    "database management system (dbms)"
-  ],
-  "information secuirty analyst": [
-    "itil",
-    "cybersecurity incident response",
-    "cisco firewall security",
-    "sumologic",
-    "active directory",
-    "shavlikarcsight",
-    "server administration",
-    "cyber threat intelligence (cti)",
-    "information security",
-    "ciscoasa"
-  ],
-  "data analysis": [
-    "writing skills"
-  ],
-  "jr. engineer": [
-    "sap",
-    "risk management skills"
-  ],
-  "lecturer": [
-    "python",
-    "problem solving skills",
-    "analytical skills",
-    "sql",
-    "people management"
-  ],
-  "hardware design engineer": [
-    "pcb design",
-    "product development",
-    "assembly language",
-    "embedded systems",
-    "electronic circuit design",
-    "mechatronics",
-    "microcontrollers",
-    "electronics hardware design",
-    "robotics",
-    "graphic design"
-  ],
-  "finance consultant": [
-    "wealth management",
-    "accounting skills"
-  ],
-  "medical posting": [
-    "communication skills"
-  ],
-  "intern at innodatatics": [
-    "people management",
-    "product knowledge",
-    "machine learning skills",
-    "python",
-    "data visualization",
-    "sql",
-    "leadership",
-    "analytical skills"
-  ],
-  "supervisor": [
-    "good communication skills",
-    "finance related skills",
-    "civil & criminal law",
-    "negotiation skills"
-  ],
-  "transcriber/script editor": [
-    "python",
-    "excel",
-    "work under pressure",
-    "critical thinking",
-    "active listening",
-    "artistic skills",
-    "gathering informing",
-    "analytical skills",
-    "communication skills"
-  ],
-  "felix healtcare pvt ltd": [
-    "sales",
-    "business knowledge",
-    "problem solving skills",
-    "negotiation skills",
-    "mass communication",
-    "social media marketing",
-    "active listening",
-    "hospitality",
-    "good communication skills",
-    "hardware skills"
-  ],
-  "operation manager": [
-    "people management",
-    "machine learning skills",
-    "business knowledge",
-    "problem solving skills",
-    "python",
-    "data visualization",
-    "wealth management",
-    "sql",
-    "negotiation skills",
-    "leadership"
-  ],
-  "trainee consultant - quality": [
-    "linux",
-    "java",
-    "programming",
-    "sql"
-  ],
-  "lawyer -ipr": [
-    "critical thinking",
-    "civil & criminal law",
-    "gathering information"
-  ],
-  "medical and sales reprasentative": [
-    "machine learning skills",
-    "sales",
-    "hr",
-    "python",
-    "analytical skills"
-  ],
-  "teaching job": [
-    "social media marketing"
-  ],
-  "associate it consultant - erp": [
-    "foreign languages french",
-    "hr",
-    "problem solving skills",
-    "client management",
-    "spanish",
-    "good communication skills",
-    "leadership",
-    "communication skills",
-    "hospitality"
-  ],
-  "gat- engine testing engineer": [
-    "product knowledge",
-    "problem solving skills",
-    "leadership"
-  ],
-  "sub engineer": [
-    "artificial intelligence",
-    "presentation skills",
-    "communication skills"
-  ],
-  "telemarketer": [
-    "business knowledge",
-    "people management",
-    "product knowledge"
-  ],
-  "data entry operator": [
-    "news gathering",
-    "writing",
-    "editing",
-    "business knowledge",
-    "excel",
-    "sql",
-    "creativity skills",
-    "c++",
-    "team work",
-    "presentation skills"
-  ],
-  "senior editor": [
-    "machine learning skills",
-    "product knowledge",
-    "editing",
-    "problem solving skills",
     "writing skills",
-    "gathering information",
-    "critical thinking",
-    "interpersonal skills",
-    "medical knowledge",
-    "leadership"
-  ],
-  "project associate": [
-    "people management",
-    "product knowledge",
-    "editing",
-    "business knowledge",
-    "creativity skills",
-    "team work",
-    "artistic skills",
-    "designing skills"
-  ],
-  "technical associate": [
-    "people management",
-    "product knowledge",
-    "problem solving skills",
-    "critical thinking",
-    "sap",
-    "leadership"
-  ],
-  "tech support": [
-    "accounting skills"
-  ],
-  "researcher": [
-    "business knowledge",
-    "good communication skills",
-    "active listening",
-    "gathering information"
-  ],
-  "content writer and creative strategist": [
-    "people management",
-    "editing",
-    "problem solving skills",
-    "writing skills",
-    "content creation",
-    "gathering information",
-    "critical thinking",
-    "negotiation skills",
-    "mass communication",
-    "social media marketing"
-  ],
-  "it engineer": [
-    "php",
-    "js",
-    "android",
-    "css",
-    "html"
-  ],
-  "software testing": [
-    "python",
-    "java",
-    "sql",
-    "cloud computing"
-  ],
-  "entry level software engineer": [
-    "linux",
-    "java",
-    "business knowledge",
-    "python",
-    "data visualization",
-    "c++",
-    "analytical skills"
-  ],
-  "pat": [
-    "python",
-    "java",
-    "sql"
-  ],
-  "sap consultant": [
-    "people management",
-    "sap"
-  ],
-  "customer care": [
-    "product knowledge",
-    "problem solving skills",
-    "active listening",
     "communication skills",
-    "hospitality"
+    "documentation",
+    "analytical skills",
+    "research skills",
+    "microsoft office",
+    "attention to detail",
+    "editing",
+    "html",
+    "project management"
   ],
-  "psychologist": [
-    "people management",
-    "observation skills",
-    "civil & criminal law",
-    "risk managing",
+  "writer": [
+    "writing skills",
+    "creativity",
+    "communication skills",
+    "research skills",
+    "editing",
+    "storytelling",
+    "attention to detail",
+    "analytical skills",
+    "seo",
+    "time management"
+  ],
+  "call center agent": [
+    "communication skills",
+    "active listening",
+    "customer service",
     "problem solving skills",
-    "logical skills",
-    "work under pressure",
-    "creativity skills",
-    "accounting skills",
-    "negotiation skills"
-  ],
-  "fitness consultant expert": [
-    "news gathering",
+    "crm",
+    "patience",
+    "typing",
     "product knowledge",
-    "civil & criminal law",
-    "business knowledge",
-    "excel",
-    "work under pressure",
-    "negotiation skills",
-    "critical thinking",
-    "market study",
-    "team work"
+    "interpersonal skills",
+    "stress management"
   ],
   "copywriter": [
-    "people management",
-    "problem solving skills",
     "writing skills",
-    "client management",
-    "gathering information",
-    "mass communication",
-    "social media marketing",
-    "active listening",
-    "artistic/creative skills",
-    "content creation"
-  ],
-  "assistant system engineer trainee": [
-    "python",
-    "problem solving skills",
-    "matlab",
-    "programming",
-    "communication skills"
-  ],
-  "biocurator": [
-    "real-time polymerase chain reaction (qpcr)",
-    "molecular biology",
-    "environmental biotechnology"
-  ],
-  "nothing": [
-    "artificial intelligence",
-    "python",
-    "gathering information",
-    "programming",
-    "analytical skills",
-    "problem solving skills",
-    "sql"
-  ],
-  "pharma benefit analyst": [
-    "artificial intelligence",
-    "machine learning skills",
-    "python",
-    "sql",
-    "critical thinking",
-    "programming",
-    "analytical skills",
-    "communication skills"
-  ],
-  "cyber security engineer": [
-    "web application security",
-    "vulnerability assessment",
-    "penetration testing",
-    "ethical hacking",
-    "application security",
-    "shell scripting",
-    "owasp",
-    "python (programming language)",
-    "web application security assessment"
-  ],
-  "associate data scientist": [
-    "java",
-    "sql",
-    "gathering information",
-    "critical thinking",
-    "mass communication",
-    "cloud computing",
-    "artificial intelligence",
-    "product knowledge",
-    "business knowledge",
-    "presentation skills"
-  ],
-  "security officer": [
-    "hospitality"
-  ],
-  "business trainee": [
-    "product knowledge",
-    "risk management skills",
-    "business knowledge",
-    "problem solving skills",
-    "client management",
-    "negotiation skills",
-    "finance related skills",
-    "analytical skills",
-    "communication skills"
-  ],
-  "python developer": [
-    "teamwork",
-    "excel",
-    "work under pressure",
-    "interpersonal skills",
-    "presentation skills",
-    "active listening",
-    "reading",
-    "programming"
-  ],
-  "talent acquisition executive": [
-    "hr",
-    "negotiation skills"
-  ],
-  "management trainee": [
-    "problem solving skills",
-    "mass communication",
-    "active listening",
-    "artistic/creative skills",
-    "communication skills"
-  ],
-  "human resources assistant": [
-    "people management",
-    "sales",
-    "business knowledge",
-    "problem solving skills",
-    "negotiation skills",
-    "presentation skills",
-    "finance related skills",
-    "communication skills"
-  ],
-  "procurement engineer": [
-    "risk management skills",
-    "business knowledge",
-    "problem solving skills",
-    "negotiation skills",
-    "critical thinking",
-    "sap",
-    "leadership",
-    "analytical skills",
-    "good communication skills",
-    "communication skills"
-  ],
-  "get": [
-    "problem solving skills",
-    "analytical skills"
-  ],
-  "telecaller,sale exicutive": [
-    "business knowledge",
-    "sales",
-    "active listening",
-    "communication skills"
-  ],
-  "operations engineer": [
-    "java",
-    "ai"
-  ],
-  "purchase executive": [
-    "artificial intelligence",
-    "machine learning skills",
-    "risk management skills",
-    "python",
-    "problem solving skills",
-    "data visualization",
-    "sql",
-    "negotiation skills",
-    "critical thinking",
-    "analytical skills"
-  ],
-  "qa specialist": [
-    "data visualization",
-    "sql",
-    "risk management skills",
-    "sap"
-  ],
-  "hardware engineer": [
-    "leadership",
-    "work under pressure",
+    "creativity",
     "communication skills",
-    "python",
-    "ml"
+    "seo",
+    "editing",
+    "research skills",
+    "analytical skills",
+    "content strategy",
+    "storytelling",
+    "attention to detail"
   ],
-  "apac engineer": [
-    "networking"
-  ],
-  "personal advisory": [
-    "business knowledge",
-    "people management",
-    "machine learning skills",
-    "hospitality"
-  ],
-  "rpa developer": [
-    "ai",
-    "python",
-    "programming",
-    "c++",
-    "communication skills"
-  ],
-  "relationship manager at icici": [
-    "leadership",
-    "product knowledge",
-    "hr",
-    "risk management skills",
-    "business knowledge",
-    "problem solving skills",
-    "writing skills",
-    "accounting skills",
-    "gathering information",
-    "critical thinking"
-  ],
-  "business operations": [
-    "accounting skills",
-    "gathering information",
-    "critical thinking",
+  "procurement staff": [
+    "procurement",
+    "analytical skills",
     "negotiation skills",
-    "artistic/creative skills",
-    "active listening",
-    "content creation",
-    "leadership",
-    "communication skills"
-  ],
-  "sales excellent": [
-    "autocard"
-  ],
-  "machine operator": [
-    "team work",
-    "leadership",
-    "analytical skills",
-    "designing skills",
-    "communication skills"
-  ],
-  "gis engineer": [
-    "python",
-    "sql"
-  ],
-  "retail manager": [
-    "hr"
-  ],
-  "student onboarding team member": [
-    "python",
-    "problem solving skills",
-    "gathering information",
-    "active listening",
-    "leadership",
-    "good communication skills",
-    "designing skills",
-    "communication skills"
-  ],
-  "chemical process engineer": [
-    "refinery operations",
-    "etabs",
-    "proeficiency in software like staad pro",
-    "good communication skills"
-  ],
-  "marketing guy (tma)": [
-    "sales",
-    "risk management skills",
-    "problem solving skills",
-    "active listening",
-    "hardware skills"
-  ],
-  "systems engineer": [
-    "people management"
-  ],
-  "social media executive": [
-    "foreign languages french",
-    "business knowledge",
-    "accounting skills",
-    "teaching",
-    "social media marketing",
-    "content creation",
-    "spanish",
-    "finance related skills",
-    "hardware skills",
-    "communication skills"
-  ],
-  "salesforce admin": [
-    "editing",
-    "mass communication",
-    "critical thinking",
-    "sap",
-    "salesforce admin",
-    "leadership",
-    "cloud computing",
-    "designing skills",
-    "java",
-    "gathering information"
-  ],
-  "ups supervisor": [
-    "business knowledge",
-    "problem solving skills",
-    "accounting skills",
-    "active listening",
-    "hardware skills"
-  ],
-  "software development engineer": [
-    "cpp",
-    "data structures",
-    "back-end web development",
-    "junit",
-    "databases",
-    "database management system (dbms)",
-    "core java",
-    "debugging",
-    "cascading style sheets (css)",
-    "javajava"
-  ],
-  "jumio document verification team": [
-    "c++",
-    "programming",
-    "communication skills"
-  ],
-  "manager": [
-    "critical thinking",
-    "finance related skills",
-    "analytical skills",
-    "active listening"
-  ],
-  "placement trainee": [
-    "mengajar"
-  ],
-  "php developer": [
-    "artificial intelligence",
-    "machine learning skills",
-    "python",
-    "data visualization",
-    "sql"
-  ],
-  "game programmer": [
-    "c (programming language)",
-    "c#",
-    "unity 3d",
-    "game development",
-    "data structures",
-    "unreal engine 4",
-    "c++",
-    "object-oriented programming (oop)"
-  ],
-  "qc engineer": [
-    "people management",
-    "risk management skills",
-    "problem solving skills",
-    "gathering information",
-    "critical thinking",
-    "active listening"
-  ],
-  "miritary soldier": [
-    "critical thinking",
-    "editing",
-    "accounting skills",
-    "content creation"
-  ],
-  "assistant engineer": [
-    "artificial intelligence",
-    "risk management skills",
-    "problem solving skills",
-    "critical thinking",
-    "artistic/creative skills",
-    "analytical skills",
-    "good communication skills"
-  ],
-  "graphics designer": [
-    "designing skills"
-  ],
-  "scientist in downstream protein purification": [
+    "communication skills",
+    "vendor management",
     "excel",
-    "logical skills",
-    "work under pressure",
-    "reporting",
-    "team work",
-    "active listening",
-    "gathering informing",
+    "problem solving skills",
+    "attention to detail",
+    "sourcing",
+    "market research"
+  ],
+  "secretary": [
+    "microsoft office",
+    "communication skills",
+    "organizational skills",
+    "scheduling",
+    "time management",
+    "attention to detail",
+    "typing",
+    "filing",
+    "interpersonal skills",
+    "confidentiality"
+  ],
+  "banking staff": [
+    "finance related skills",
+    "communication skills",
+    "excel",
+    "customer service",
+    "analytical skills",
+    "compliance",
+    "problem solving skills",
+    "attention to detail",
+    "interpersonal skills",
+    "reporting"
+  ],
+  "industrial engineer": [
+    "analytical skills",
+    "problem solving skills",
+    "autocad",
+    "communication skills",
+    "lean manufacturing",
+    "process improvement",
+    "project management",
+    "statistical analysis",
+    "excel",
+    "attention to detail"
+  ],
+  "social media specialist": [
+    "social media marketing",
+    "communication skills",
+    "creativity",
+    "content creation",
+    "analytical skills",
+    "copywriting",
+    "photoshop",
+    "video editing",
+    "presentation skills",
+    "seo"
+  ],
+  "game developer": [
+    "python",
+    "game development",
+    "unity",
+    "creative thinking",
+    "problem solving skills",
+    "java",
+    "communication skills",
+    "3d modeling",
     "analytical skills"
   ],
-  "gatemen": [
-    "java",
-    "risk management skills",
-    "business knowledge",
-    "sql",
-    "critical thinking",
-    "leadership",
-    "c++"
-  ],
-  "previously worked": [
-    "teaching experience",
-    "sales",
-    "python",
-    "teaching",
-    "active listening",
-    "artistic/creative skills",
-    "good communication skills",
-    "communication skills"
+  "laboratory analyst": [
+    "analytical skills",
+    "lab techniques",
+    "data analysis",
+    "attention to detail",
+    "scientific writing",
+    "communication skills",
+    "problem solving skills",
+    "research skills",
+    "documentation",
+    "quality control"
   ],
   "cloud engineer": [
-    "big data analytics",
-    "powershell",
-    "git",
-    "microsoft azure",
-    "mysql",
-    "amazon web services (aws)docker",
+    "cloud computing",
+    "aws",
+    "linux",
+    "docker",
     "kubernetes",
-    "jenkins",
-    "cloud computing"
-  ],
-  "product specialist": [
-    "project resourcing",
-    "product development",
-    "account management",
-    "product strategy",
-    "product management",
-    "user experience (ux)"
-  ],
-  "mis": [
-    "data visualization",
-    "communication skills"
-  ],
-  "hr assistant ii": [
-    "editing",
-    "data visualization",
-    "sql",
-    "critical thinking",
-    "programming",
+    "python",
+    "networking",
+    "problem solving skills",
+    "communication skills",
     "analytical skills"
   ],
-  "vfx production assistant": [
-    "2d/3d animation"
-  ],
-  "pengembang database": [
-    "r programming",
-    "data science",
-    "cloud computing",
-    "hacking",
-    "testing",
-    "database security",
-    "hadoop",
-    "web technologies",
-    "game development",
-    "python"
-  ],
-  "administrator portal": [
-    "data science",
-    "full stack",
-    "hacking",
-    "database security",
-    "app development",
-    "information security",
-    "testing",
-    "system designing",
-    "cloud computing",
-    "shell programming"
-  ],
-  "administrator keamanan sistem": [
-    "database security",
-    "system designing",
-    "hacking",
-    "information security",
-    "data science",
-    "app development",
-    "cloud computing",
-    "distro making",
-    "web technologies",
-    "hadoop"
-  ],
-  "business systems analyst": [
-    "data science",
-    "system designing",
-    "game development",
-    "hadoop",
-    "machine learning",
-    "testing",
-    "cloud computing",
-    "shell programming",
-    "r programming",
-    "hacking"
-  ],
-  "software systems engineer": [
-    "game development",
-    "database security",
-    "hacking",
-    "testing",
-    "machine learning",
-    "web technologies",
-    "r programming",
+  "cyber security analyst": [
+    "networking",
+    "linux",
     "python",
-    "cloud computing",
-    "information security"
-  ],
-  "business intelligence analyst": [
-    "testing",
-    "shell programming",
-    "web technologies",
-    "distro making",
-    "game development",
-    "data science",
-    "cloud computing",
-    "database security",
-    "machine learning",
-    "hacking"
-  ],
-  "crm technical developer": [
-    "hacking",
-    "database security",
-    "system designing",
-    "r programming",
-    "cloud computing",
     "information security",
-    "data science",
-    "testing",
-    "game development",
-    "python"
-  ],
-  "mobile applications developer": [
-    "system designing",
-    "hacking",
-    "web technologies",
-    "information security",
-    "testing",
-    "r programming",
-    "shell programming",
-    "data science",
-    "machine learning",
-    "cloud computing"
-  ],
-  "desainer ux": [
-    "shell programming",
-    "system designing",
-    "web technologies",
-    "database security",
-    "game development",
-    "hacking",
-    "testing",
-    "machine learning",
-    "full stack",
-    "cloud computing"
-  ],
-  "quality assurance associate": [
-    "hacking",
-    "hadoop",
-    "system designing",
-    "testing",
-    "cloud computing",
-    "web technologies",
-    "database security",
-    "information security",
-    "data science",
-    "app development"
-  ],
-  "pengembang web": [
-    "testing",
-    "information security",
-    "database security",
-    "data science",
-    "system designing",
-    "web technologies",
-    "full stack",
-    "distro making",
-    "machine learning",
-    "hacking"
-  ],
-  "information security analyst": [
-    "web technologies",
-    "system designing",
-    "testing",
-    "data science",
-    "app development",
-    "game development",
-    "hacking",
-    "full stack",
-    "distro making",
-    "r programming"
-  ],
-  "crm business analyst": [
-    "data science",
-    "system designing",
-    "game development",
-    "app development",
-    "web technologies",
-    "database security",
-    "r programming",
-    "distro making",
-    "hadoop",
-    "cloud computing"
-  ],
-  "dukungan teknis": [
-    "web technologies",
-    "system designing",
-    "shell programming",
-    "machine learning",
-    "database security",
-    "hacking",
-    "distro making",
-    "testing",
-    "hadoop",
-    "full stack"
-  ],
-  "manajer proyek": [
-    "data science",
-    "hacking",
-    "system designing",
-    "testing",
-    "information security",
-    "app development",
-    "shell programming",
-    "web technologies",
-    "r programming",
-    "python"
-  ],
-  "information technology manager": [
-    "game development",
-    "web technologies",
-    "full stack",
-    "database security",
-    "cloud computing",
-    "hadoop",
-    "data science",
-    "hacking",
-    "system designing",
-    "python"
-  ],
-  "design & ux": [
-    "machine learning",
-    "distro making",
-    "game development",
-    "system designing",
-    "web technologies",
-    "database security",
-    "hacking",
-    "cloud computing",
-    "data science",
-    "shell programming"
+    "analytical skills",
+    "problem solving skills",
+    "communication skills",
+    "ethical hacking",
+    "risk management skills",
+    "compliance"
   ],
   "solutions architect": [
-    "game development",
-    "database security",
-    "testing",
-    "hacking",
-    "information security",
+    "cloud computing",
+    "system designing",
+    "aws",
+    "communication skills",
+    "analytical skills",
+    "problem solving skills",
     "python",
-    "web technologies",
-    "data science",
+    "presentation skills",
+    "networking",
+    "leadership"
+  ],
+  "cashier": [
+    "communication skills",
+    "cash handling",
+    "customer service",
+    "attention to detail",
+    "numerical skills",
+    "pos system",
+    "teamwork",
+    "patience",
+    "honesty",
+    "time management"
+  ],
+  "receptionist": [
+    "communication skills",
+    "customer service",
+    "microsoft office",
+    "scheduling",
+    "phone etiquette",
+    "organizational skills",
+    "interpersonal skills",
+    "multitasking",
+    "attention to detail",
+    "professional appearance"
+  ],
+  "business development": [
+    "sales",
+    "communication skills",
+    "negotiation skills",
+    "analytical skills",
+    "presentation skills",
+    "networking",
+    "market research",
+    "crm",
+    "leadership",
+    "problem solving skills"
+  ],
+  "auditor": [
+    "accounting skills",
+    "analytical skills",
+    "excel",
+    "risk management skills",
+    "attention to detail",
+    "communication skills",
+    "problem solving skills",
+    "compliance",
+    "reporting",
+    "documentation"
+  ],
+  "management trainee": [
+    "communication skills",
+    "analytical skills",
+    "leadership",
+    "problem solving skills",
+    "teamwork",
+    "excel",
+    "presentation skills",
+    "business knowledge",
+    "adaptability",
+    "interpersonal skills"
+  ],
+  "translator": [
+    "language skills",
+    "communication skills",
+    "writing skills",
+    "attention to detail",
+    "research skills",
+    "cultural knowledge",
+    "time management",
+    "analytical skills",
+    "editing",
+    "microsoft office"
+  ],
+  "photographer": [
+    "photography",
+    "photo editing",
+    "creative thinking",
+    "communication skills",
+    "lightroom",
+    "photoshop",
+    "composition",
+    "attention to detail",
+    "storytelling",
+    "time management"
+  ],
+  "event planner": [
+    "communication skills",
+    "project management",
+    "organizational skills",
+    "creativity",
+    "vendor management",
+    "problem solving skills",
+    "negotiation skills",
+    "budgeting",
+    "leadership",
+    "attention to detail"
+  ],
+  "ai engineer": [
     "machine learning",
-    "app development"
-  ],
-  "systems analyst": [
-    "hacking",
-    "system designing",
-    "hadoop",
-    "game development",
-    "web technologies",
-    "shell programming",
-    "database security",
     "python",
-    "data science",
-    "testing"
+    "deep learning",
+    "nlp",
+    "computer vision",
+    "tensorflow",
+    "pytorch",
+    "analytical skills",
+    "communication skills",
+    "problem solving skills"
   ],
-  "network security administrator": [
-    "system designing",
-    "hacking",
-    "database security",
-    "app development",
-    "web technologies",
-    "information security",
-    "game development",
-    "data science",
-    "cloud computing",
-    "r programming"
+  "drafter": [
+    "autocad",
+    "technical drawing",
+    "analytical skills",
+    "attention to detail",
+    "communication skills",
+    "revit",
+    "solidworks",
+    "cad software",
+    "problem solving skills",
+    "microsoft office"
   ],
-  "data architect": [
-    "game development",
-    "system designing",
-    "python",
-    "cloud computing",
-    "hadoop",
-    "data science",
-    "database security",
-    "r programming",
-    "web technologies",
-    "testing"
+  "surveyor": [
+    "surveying",
+    "analytical skills",
+    "attention to detail",
+    "communication skills",
+    "problem solving skills",
+    "autocad",
+    "gis",
+    "microsoft office",
+    "technical drawing",
+    "measurement tools"
   ],
-  "e-commerce analyst": [
-    "testing",
-    "data science",
-    "web technologies",
-    "machine learning",
-    "database security",
-    "full stack",
-    "game development",
-    "app development",
-    "python",
-    "information security"
+  "warehouse staff": [
+    "inventory management",
+    "organizational skills",
+    "attention to detail",
+    "communication skills",
+    "teamwork",
+    "physical fitness",
+    "safety awareness",
+    "microsoft office",
+    "forklift operation",
+    "reporting"
   ],
-  "technical services/help desk/tech support": [
-    "web technologies",
-    "system designing",
-    "full stack",
-    "data science",
-    "game development",
-    "machine learning",
-    "python",
-    "database security",
-    "app development",
-    "information security"
+  "purchasing staff": [
+    "procurement",
+    "negotiation skills",
+    "analytical skills",
+    "communication skills",
+    "excel",
+    "vendor management",
+    "attention to detail",
+    "problem solving skills",
+    "sourcing",
+    "reporting"
   ],
-  "information technology auditor": [
-    "web technologies",
-    "system designing",
-    "distro making",
-    "database security",
-    "game development",
-    "cloud computing",
-    "data science",
-    "app development",
-    "hadoop",
-    "r programming"
+  "nurse": [
+    "nursing",
+    "patient care",
+    "communication skills",
+    "medical knowledge",
+    "empathy",
+    "attention to detail",
+    "clinical skills",
+    "teamwork",
+    "problem solving skills",
+    "time management"
   ],
-  "database manager": [
-    "testing",
-    "cloud computing",
-    "data science",
-    "database security",
-    "information security",
-    "full stack",
-    "web technologies",
-    "game development",
-    "r programming",
-    "python"
+  "paralegal": [
+    "legal research",
+    "writing skills",
+    "analytical skills",
+    "communication skills",
+    "organizational skills",
+    "documentation",
+    "attention to detail",
+    "microsoft office",
+    "problem solving skills",
+    "compliance"
   ],
-  "applications developer": [
-    "shell programming",
-    "data science",
-    "system designing",
-    "game development",
-    "database security",
-    "information security",
-    "testing",
-    "cloud computing",
-    "hadoop",
-    "web technologies"
+  "company secretary": [
+    "legal knowledge",
+    "compliance",
+    "communication skills",
+    "organizational skills",
+    "documentation",
+    "microsoft office",
+    "attention to detail",
+    "analytical skills",
+    "problem solving skills",
+    "confidentiality"
   ],
-  "insinyur jaringan": [
-    "web technologies",
-    "data science",
-    "database security",
-    "testing",
-    "cloud computing",
-    "game development",
-    "shell programming",
-    "r programming",
-    "full stack",
-    "hacking"
+  "hospitality staff": [
+    "customer service",
+    "communication skills",
+    "teamwork",
+    "problem solving skills",
+    "attention to detail",
+    "interpersonal skills",
+    "adaptability",
+    "time management",
+    "multitasking",
+    "professional appearance"
   ],
-  "insinyur perangkat lunak": [
-    "database security",
-    "web technologies",
-    "cloud computing",
-    "r programming",
-    "python",
-    "system designing",
-    "game development",
-    "app development",
-    "data science",
-    "information security"
+  "chef / cook": [
+    "culinary skills",
+    "creativity",
+    "time management",
+    "teamwork",
+    "attention to detail",
+    "food safety",
+    "kitchen management",
+    "problem solving skills",
+    "physical fitness",
+    "leadership"
   ],
-  "technical engineer": [
-    "web technologies",
-    "game development",
-    "hacking",
-    "system designing",
-    "machine learning",
-    "data science",
-    "shell programming",
-    "cloud computing",
-    "database security",
-    "full stack"
+  "barista": [
+    "customer service",
+    "communication skills",
+    "coffee knowledge",
+    "teamwork",
+    "attention to detail",
+    "time management",
+    "adaptability",
+    "product knowledge",
+    "cash handling",
+    "interpersonal skills"
   ],
-  "network security engineer": [
-    "hadoop",
-    "game development",
-    "web technologies",
-    "hacking",
-    "data science",
-    "testing",
-    "database security",
-    "app development",
-    "python",
-    "cloud computing"
+  "tourism staff": [
+    "communication skills",
+    "customer service",
+    "language skills",
+    "tourism knowledge",
+    "interpersonal skills",
+    "problem solving skills",
+    "adaptability",
+    "teamwork",
+    "local knowledge",
+    "presentation skills"
   ],
-  "software quality assurance (qa) / testing": [
-    "web technologies",
-    "r programming",
-    "hadoop",
-    "testing",
-    "database security",
-    "hacking",
-    "full stack",
-    "system designing",
-    "game development",
-    "cloud computing"
-  ],
-  "kesehatan specialist": [
-    "tidak ada"
-  ],
-  "desain specialist": [
-    "tidak ada"
-  ],
-  "teknologi specialist": [
-    "tidak ada"
-  ],
-  "keuangan specialist": [
-    "tidak ada"
-  ],
-  "bisnis specialist": [
-    "tidak ada"
+  "electrical engineer": [
+    "electrical engineering",
+    "autocad",
+    "analytical skills",
+    "problem solving skills",
+    "communication skills",
+    "circuit design",
+    "plc programming",
+    "project management",
+    "attention to detail",
+    "matlab"
   ]
 }
