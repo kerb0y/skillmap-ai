@@ -90,6 +90,27 @@ SKILL_ALIASES = {
     "time management skills": "time management",
     "communication": "communication skills",
     "analytical thinking": "analytical skills",
+    # ── v3.2: Alias bahasa Indonesia → English (dari CSV3) ──────
+    "analisis data":     "analytical skills",
+    "pemasaran digital": "digital marketing",
+    "kepemimpinan":      "leadership",
+    "komunikasi":        "communication skills",
+    "manajemen proyek":  "project management",
+    "riset":             "research skills",
+    "desain grafis":     "designing skills",
+    # ── v3.2: Alias kehutanan/lingkungan ────────────────────────
+    "kehutanan":            "forestry",
+    "hutan":               "forestry",
+    "konservasi":          "conservation",
+    "pemetaan":            "mapping",
+    "survei lapangan":     "field survey",
+    "pengamatan lapangan": "field survey",
+    "vegetasi":            "vegetation analysis",
+    "biodiversitas":       "biodiversity",
+    "keberlanjutan":       "sustainability",
+    "perubahan iklim":     "climate change",
+    "analisis lingkungan": "environmental analysis",
+    "penginderaan jauh":   "spatial analysis",
 }
 
 # Skill 2-char valid (nama teknologi)
@@ -155,6 +176,17 @@ KNOWN_SKILLS_EXTRA = {
     "stakeholder management", "vendor management", "procurement",
     "market research", "presentation skills", "leadership",
     "teamwork", "interpersonal skills",
+    # ─ v3.2: Kehutanan/Lingkungan ────────────────────────────
+    "forestry", "forest management", "conservation", "biodiversity",
+    "field survey", "gis", "mapping", "vegetation analysis",
+    "environmental analysis", "environmental monitoring",
+    "regulation knowledge", "sustainability", "ecosystem monitoring",
+    "community engagement", "qgis", "gps", "spatial analysis",
+    "climate change", "documentation",
+    # ─ v3.2: Animator/Diplomat/Consultant ─────────────────────
+    "animation", "3d modeling", "cultural knowledge", "language skills",
+    "storytelling", "after effects", "business knowledge",
+    "research skills", "designing skills",
 }
 
 # Gabungkan known_skills dari JSON + EXTRA, lalu sort panjang descending
@@ -471,6 +503,51 @@ CAREER_KEYWORD_MAP: dict = {
         "hukum", "legal", "lawyer", "pengacara", "advokat",
         "kontrak", "perjanjian",
     ],
+    # ── Baru v3.2: dari CSV3 ───────────────────────────────────
+    "animator": [
+        "animasi", "animation", "animator", "3d", "motion graphics",
+        "vfx", "rigging", "rendering", "character design", "storyboard",
+    ],
+    "diplomat": [
+        "diplomat", "diplomasi", "hubungan internasional", "kedutaan",
+        "kementerian luar negeri", "embassy", "konsulat", "foreign affairs",
+        "bilateral", "multilateral",
+    ],
+    "business consultant": [
+        "konsultan", "consultant", "advisory", "management consulting",
+        "business advisory", "konsultasi bisnis", "strategic consulting",
+    ],
+    # ── Baru v3.2: Kehutanan/Lingkungan ────────────────────────
+    "forestry officer": [
+        "kehutanan", "forestry", "hutan", "silvicultur", "perhutani",
+        "klhk", "kementerian lingkungan", "hutan tanaman", "hti",
+        "reboisasi", "konservasi hutan",
+    ],
+    "environmental officer": [
+        "lingkungan hidup", "environmental", "amdal", "reklamasi",
+        "pencemaran", "teknik lingkungan", "analisis dampak",
+        "kementerian lingkungan hidup", "lingkungan hidup", "ekologi",
+    ],
+    "conservation officer": [
+        "konservasi", "conservation", "biodiversitas", "biodiversity",
+        "vegetasi", "ekosistem", "taman nasional", "suaka margasatwa",
+        "keanekaragaman hayati", "satwa liar",
+    ],
+    "sustainability officer": [
+        "keberlanjutan", "sustainability", "perubahan iklim", "climate change",
+        "emisi", "carbon", "net zero", "esg", "lingkungan berkelanjutan",
+        "sdgs", "green",
+    ],
+    "gis analyst": [
+        "gis", "qgis", "arcgis", "pemetaan", "mapping", "spatial",
+        "remote sensing", "penginderaan jauh", "sig ", "sistem informasi geografis",
+        "kartografi", "geospasial",
+    ],
+    "field officer": [
+        "lapangan", "field", "survei lapangan", "field survey",
+        "pengamatan lapangan", "monitoring lapangan", "petugas lapangan",
+        "field monitoring", "enumerator",
+    ],
 }
 
 
@@ -658,6 +735,16 @@ def normalize_target_job(target_job: str) -> str | None:
         (["general manager", "gm ", "country manager"], "general manager"),
         (["operations manager", "operation head"], "operations manager"),
         (["management trainee", "graduate trainee"], "management trainee"),
+        # ─ v3.2 new categories ────────────────────────────────────
+        (["animator", "animasi", "3d artist", "motion graphic"], "animator"),
+        (["diplomat", "diplomasi", "foreign affairs", "hubungan internasional"], "diplomat"),
+        (["konsultan", "consultant", "business consultant", "advisory"], "business consultant"),
+        (["kehutanan", "forestry", "perhutani", "hutan"], "forestry officer"),
+        (["lingkungan hidup", "environmental", "amdal", "teknik lingkungan"], "environmental officer"),
+        (["konservasi", "conservation", "taman nasional", "biodiversitas"], "conservation officer"),
+        (["sustainability", "keberlanjutan", "climate change", "perubahan iklim"], "sustainability officer"),
+        (["gis", "qgis", "arcgis", "pemetaan", "geospasial"], "gis analyst"),
+        (["field officer", "petugas lapangan", "survei lapangan", "enumerator"], "field officer"),
     ]
 
     for keywords, category in kw_map:

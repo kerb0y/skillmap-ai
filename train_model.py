@@ -1,9 +1,9 @@
 """
-SkillMap AI - Training Script v3.0
+SkillMap AI - Training Script v3.2
 ====================================
-Dual-dataset, expanded career taxonomy (100+ categories),
-pisah career_categories (untuk /jobs) vs model_classes (untuk training),
-rule-based skill map fallback untuk coverage penuh.
+Triple-dataset, expanded career taxonomy (109+ categories),
+CSV3 (New_Career_Recommendation_Cleaned) untuk label animator/diplomat/business consultant,
+curated forestry/environment categories (rule-based only).
 
 Jalankan:
     python train_model.py
@@ -29,6 +29,7 @@ from sklearn.preprocessing import LabelEncoder, MultiLabelBinarizer
 BASE_DIR = Path(__file__).resolve().parent
 DATASET1_PATH = BASE_DIR / "combined_career_recommender_clean.csv"
 DATASET2_PATH = BASE_DIR / "career_recommender_indonesia_cleaned.csv"
+DATASET3_PATH = BASE_DIR / "New_Career_Recommendation_Cleaned.csv"  # v3.2
 ARTIFACT_DIR = BASE_DIR / "artifacts"
 ARTIFACT_DIR.mkdir(exist_ok=True)
 
@@ -506,7 +507,46 @@ CAREER_TAXONOMY = {
     "tourism staff": [
         "tourism staff", "travel consultant", "tour guide",
     ],
+    # ─── v3.2: CSV3 labels ────────────────────────────────────
+    "animator": [
+        "animator", "animation artist", "3d animator", "motion graphic designer",
+        "character animator", "vfx artist",
+    ],
+    "diplomat": [
+        "diplomat", "foreign service officer", "attaché", "embassy staff",
+        "consular officer",
+    ],
+    "business consultant": [
+        "consultant", "management consultant", "business consultant",
+        "business advisor", "strategy consultant", "konsultan bisnis",
+    ],
+    # ─── v3.2: Kehutanan/Lingkungan (curated-only) ────────────
+    "forestry officer": [
+        "forestry officer", "forest ranger", "petugas kehutanan",
+        "forest manager", "silviculturist",
+    ],
+    "environmental officer": [
+        "environmental officer", "environmental analyst",
+        "petugas lingkungan", "environmental specialist",
+    ],
+    "conservation officer": [
+        "conservation officer", "wildlife officer", "petugas konservasi",
+        "biodiversity officer",
+    ],
+    "sustainability officer": [
+        "sustainability officer", "sustainability manager",
+        "esg officer", "climate officer",
+    ],
+    "gis analyst": [
+        "gis analyst", "gis specialist", "geospatial analyst",
+        "spatial analyst", "kartograf",
+    ],
+    "field officer": [
+        "field officer", "field coordinator", "petugas lapangan",
+        "field enumerator", "field researcher",
+    ],
 }
+
 
 # ============================================================
 # 2.  Rule-based skill map untuk coverage /jobs yang lebih luas
@@ -581,6 +621,55 @@ RULE_BASED_SKILL_MAP = {
     "surveyor": ["surveying", "gis", "analytical skills", "technical skills"],
     "quality control": ["quality management", "analytical skills", "attention to detail", "problem solving skills"],
     "production staff": ["production planning", "manufacturing", "quality control", "lean manufacturing"],
+    # ─── Baru v3.2: dari CSV3 ─────────────────────────────────
+    "animator": [
+        "animation", "designing skills", "creativity", "3d modeling",
+        "photoshop", "illustrator", "after effects", "storytelling",
+        "communication skills", "attention to detail",
+    ],
+    "diplomat": [
+        "language skills", "communication skills", "negotiation skills",
+        "analytical skills", "research skills", "presentation skills",
+        "cultural knowledge", "problem solving skills", "interpersonal skills",
+        "stakeholder management",
+    ],
+    "business consultant": [
+        "analytical skills", "communication skills", "problem solving skills",
+        "business knowledge", "presentation skills", "research skills",
+        "project management", "stakeholder management", "excel", "reporting",
+    ],
+    # ─── Baru v3.2: Kehutanan/Lingkungan (curated-only) ──────
+    "forestry officer": [
+        "forestry", "forest management", "conservation", "biodiversity",
+        "field survey", "gis", "mapping", "vegetation analysis",
+        "reporting", "teamwork", "communication skills", "environmental analysis",
+    ],
+    "environmental officer": [
+        "environmental analysis", "environmental monitoring", "reporting",
+        "field survey", "data collection", "gis", "regulation knowledge",
+        "sustainability", "communication skills", "problem solving skills",
+        "attention to detail",
+    ],
+    "conservation officer": [
+        "conservation", "biodiversity", "ecosystem monitoring", "field survey",
+        "data collection", "gis", "reporting", "community engagement",
+        "teamwork", "communication skills",
+    ],
+    "sustainability officer": [
+        "sustainability", "climate change", "environmental analysis", "reporting",
+        "stakeholder management", "regulation knowledge", "communication skills",
+        "data collection", "problem solving skills",
+    ],
+    "gis analyst": [
+        "gis", "qgis", "gps", "mapping", "spatial analysis",
+        "data visualization", "data collection", "reporting",
+        "environmental analysis", "attention to detail",
+    ],
+    "field officer": [
+        "field survey", "data collection", "reporting", "communication skills",
+        "teamwork", "attention to detail", "problem solving skills",
+        "mapping", "documentation",
+    ],
 }
 
 # ============================================================
@@ -590,9 +679,102 @@ RULE_BASED_SKILL_MAP = {
 ALL_CAREER_CATEGORIES = sorted(list(CAREER_TAXONOMY.keys()))
 
 # ============================================================
+# 3b. CSV3 Label Mapping & Skill Alias (v3.2)
+# ============================================================
+LABEL_TAXONOMY_MAP_CSV3 = {
+    "analis data":       "data analyst",
+    "data scientist":    "data scientist",
+    "ai engineer":       "ai engineer",
+    "software engineer": "software engineer",
+    "business analyst":  "business analyst",
+    "guru":              "teacher",
+    "dokter":            "doctor",
+    "perawat":           "nurse",
+    "akuntan":           "accountant",
+    "jurnalis":          "journalist",
+    "arsitek":           "architect",
+    "konsultan":         "business consultant",
+    "animator":          "animator",
+    "diplomat":          "diplomat",
+}
+
+SKILL_ALIAS_ID2EN = {
+    "analisis data":     "analytical skills",
+    "pemasaran digital": "digital marketing",
+    "kepemimpinan":      "leadership",
+    "komunikasi":        "communication skills",
+    "sql":               "sql",
+    "machine learning":  "machine learning",
+    "manajemen proyek":  "project management",
+    "python":            "python",
+    "riset":             "research skills",
+    "desain grafis":     "designing skills",
+}
+
+
+
+def load_csv3(path: Path) -> tuple:
+    """
+    Load dan preprocessing CSV3 (New_Career_Recommendation_Cleaned.csv).
+    Returns: (DataFrame[career_category, skill_list], stats_dict)
+    NOTE: is_valid_skill() dipanggil di sini, didefinisikan setelah section 4.
+    """
+    stats = {"rows_total": 0, "rows_valid": 0, "unique_labels_mapped": 0}
+    try:
+        df3 = pd.read_csv(path, encoding="utf-8")
+        stats["rows_total"] = len(df3)
+
+        df3["label_raw"] = df3["Rekomendasi_Karier"].str.strip().str.lower()
+        df3["career_category"] = df3["label_raw"].map(LABEL_TAXONOMY_MAP_CSV3)
+        df3_valid = df3[df3["career_category"].notna()].copy()
+
+        def parse_skills_csv3(row):
+            raw = [
+                str(row.get("Keahlian_1", "")).strip().lower(),
+                str(row.get("Keahlian_2", "")).strip().lower(),
+                str(row.get("Keahlian_3", "")).strip().lower(),
+            ]
+            skills = []
+            for s in raw:
+                mapped = SKILL_ALIAS_ID2EN.get(s)
+                if mapped:
+                    skills.append(mapped)
+            return list(set(skills))
+
+        df3_valid = df3_valid.copy()
+        df3_valid["skill_list"] = df3_valid.apply(parse_skills_csv3, axis=1)
+        df3_valid = df3_valid[df3_valid["skill_list"].apply(len) > 0].reset_index(drop=True)
+
+        # ── Cap per class (300 max) to prevent uniform-skill CSV3 noise ──
+        CSV3_MAX_SAMPLES_PER_CLASS = 300
+        capped_parts = []
+        for cat_name, grp in df3_valid.groupby("career_category"):
+            n = min(len(grp), CSV3_MAX_SAMPLES_PER_CLASS)
+            capped_parts.append(grp.sample(n, random_state=42))
+        if capped_parts:
+            df3_valid = pd.concat(capped_parts, ignore_index=True)
+        else:
+            df3_valid = df3_valid.head(0)
+
+        stats["rows_valid"] = len(df3_valid)
+        stats["unique_labels_mapped"] = df3_valid["career_category"].nunique()
+        print(f"  CSV3 per-class (capped at {CSV3_MAX_SAMPLES_PER_CLASS}):")
+        for lbl, cnt in df3_valid["career_category"].value_counts().items():
+            print(f"    {lbl:<30}: {cnt}")
+        return df3_valid[["career_category", "skill_list"]], stats
+
+
+
+    except Exception as e:
+        print(f"  CSV3 load failed: {e}")
+        return pd.DataFrame(columns=["career_category", "skill_list"]), stats
+
+
+# ============================================================
 # 4.  Text cleaning helpers
 # ============================================================
 SKILL_ALIASES = {
+
     "problem solving": "problem solving skills",
     "analytic thinking": "analytical skills",
     "data visualization skills( power bi/ tableau )": "data visualization",
@@ -907,7 +1089,7 @@ def normalize_job_to_category(raw_job):
 # 5.  Load & merge both datasets
 # ============================================================
 print("=" * 60)
-print("SkillMap AI - Training Pipeline v3.0 (Dual-Dataset + Expanded Taxonomy)")
+print("SkillMap AI - Training Pipeline v3.2 (Triple-Dataset + Expanded Taxonomy)")
 print("=" * 60)
 
 print("\n[1/9] Loading datasets...")
@@ -950,10 +1132,19 @@ except Exception as e:
     rows_csv2_total = 0
     use_csv2 = False
 
-# --- Merge ---
-df = pd.concat([df1, df2_valid], ignore_index=True)
-rows_combined = len(df)
-print(f"\n  Combined rows   : {rows_combined}")
+# --- CSV3 ---
+print(f"  CSV3 loading...")
+df3_clean, csv3_stats = load_csv3(DATASET3_PATH)
+rows_csv3_total = csv3_stats["rows_total"]
+rows_csv3_valid = csv3_stats["rows_valid"]
+print(f"  CSV3 rows total : {rows_csv3_total}")
+print(f"  CSV3 rows valid : {rows_csv3_valid}")
+
+# --- Merge CSV1 + CSV2 (format lama: Skill string + Job_raw) ---
+df_old = pd.concat([df1, df2_valid], ignore_index=True)
+rows_combined_old = len(df_old)
+print(f"\n  Combined (CSV1+2): {rows_combined_old}")
+
 
 
 # ============================================================
@@ -961,26 +1152,48 @@ print(f"\n  Combined rows   : {rows_combined}")
 # ============================================================
 print("\n[2/9] Preprocessing...")
 
-df["Skill_clean"] = df["Skill"].apply(split_skills)
-df["Job_clean"] = df["Job_raw"].apply(lambda x: clean_job(str(x)))
+df_old["Skill_clean"] = df_old["Skill"].apply(split_skills)
+df_old["Job_clean"] = df_old["Job_raw"].apply(lambda x: clean_job(str(x)))
 
 # Filter baris skill kosong
-df = df[df["Skill_clean"].apply(lambda x: len(x) > 0)]
-after_skill_filter = len(df)
+df_old = df_old[df_old["Skill_clean"].apply(lambda x: len(x) > 0)]
+after_skill_filter_old = len(df_old)
 
 # Map ke career_category
-df["Career_Category"] = df["Job_clean"].apply(normalize_job_to_category)
-matched = df["Career_Category"].notna().sum()
-dropped = df["Career_Category"].isna().sum()
+df_old["Career_Category"] = df_old["Job_clean"].apply(normalize_job_to_category)
+matched_old = df_old["Career_Category"].notna().sum()
+dropped_old = df_old["Career_Category"].isna().sum()
 
 # Drop yang tidak match
-df = df[df["Career_Category"].notna()].copy()
+df_old = df_old[df_old["Career_Category"].notna()].copy()
 
-print(f"\n  ======= Preprocessing Report =======")
+# Konversi CSV3 ke format seragam
+if len(df3_clean) > 0:
+    df3_unified = pd.DataFrame({
+        "Skill_clean": df3_clean["skill_list"].tolist(),
+        "Career_Category": df3_clean["career_category"].tolist(),
+        "source": ["csv3"] * len(df3_clean),
+    })
+else:
+    df3_unified = pd.DataFrame(columns=["Skill_clean", "Career_Category", "source"])
+
+# Gabung semua: df_old + df3_unified
+df_old_unified = df_old[["Skill_clean", "Career_Category", "source"]].copy()
+df = pd.concat([df_old_unified, df3_unified], ignore_index=True)
+
+rows_combined = len(df)
+matched = matched_old + len(df3_unified)
+dropped = dropped_old
+after_skill_filter = after_skill_filter_old + len(df3_unified)
+
+
+print(f"\n  ======= Preprocessing Report (v3.2) =======")
 print(f"  CSV1 rows (raw)           : {rows_csv1}")
 print(f"  CSV2 rows (total)         : {rows_csv2_total}")
 print(f"  CSV2 valid rows used      : {rows_csv2_valid}")
-print(f"  Combined rows             : {rows_combined}")
+print(f"  CSV3 rows (total)         : {rows_csv3_total}")
+print(f"  CSV3 rows valid (mapped)  : {rows_csv3_valid}")
+print(f"  Combined rows (all CSV)   : {rows_combined}")
 print(f"  After skill filter        : {after_skill_filter}")
 print(f"  Matched to career_category: {matched}")
 print(f"  Dropped (no match)        : {dropped}")

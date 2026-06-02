@@ -533,7 +533,57 @@ CURATED_SKILL_MAP = {
         "tourism knowledge", "interpersonal skills",
         "problem solving skills", "adaptability", "teamwork", "local knowledge", "presentation skills",
     ],
+    # ─── Baru v3.2: dari CSV3 ────────────────────────────────
+    "animator": [
+        "animation", "designing skills", "creativity", "3d modeling",
+        "photoshop", "illustrator", "after effects", "storytelling",
+        "communication skills", "attention to detail",
+    ],
+    "diplomat": [
+        "language skills", "communication skills", "negotiation skills",
+        "analytical skills", "research skills", "presentation skills",
+        "cultural knowledge", "problem solving skills", "interpersonal skills",
+        "stakeholder management",
+    ],
+    "business consultant": [
+        "analytical skills", "communication skills", "problem solving skills",
+        "business knowledge", "presentation skills", "research skills",
+        "project management", "stakeholder management", "excel", "reporting",
+    ],
+    # ─── Baru v3.2: Kehutanan/Lingkungan (curated-only) ──────
+    "forestry officer": [
+        "forestry", "forest management", "conservation", "biodiversity",
+        "field survey", "gis", "mapping", "vegetation analysis",
+        "reporting", "teamwork", "communication skills", "environmental analysis",
+    ],
+    "environmental officer": [
+        "environmental analysis", "environmental monitoring", "reporting",
+        "field survey", "data collection", "gis", "regulation knowledge",
+        "sustainability", "communication skills", "problem solving skills",
+        "attention to detail",
+    ],
+    "conservation officer": [
+        "conservation", "biodiversity", "ecosystem monitoring", "field survey",
+        "data collection", "gis", "reporting", "community engagement",
+        "teamwork", "communication skills",
+    ],
+    "sustainability officer": [
+        "sustainability", "climate change", "environmental analysis", "reporting",
+        "stakeholder management", "regulation knowledge", "communication skills",
+        "data collection", "problem solving skills",
+    ],
+    "gis analyst": [
+        "gis", "qgis", "gps", "mapping", "spatial analysis",
+        "data visualization", "data collection", "reporting",
+        "environmental analysis", "attention to detail",
+    ],
+    "field officer": [
+        "field survey", "data collection", "reporting", "communication skills",
+        "teamwork", "attention to detail", "problem solving skills",
+        "mapping", "documentation",
+    ],
 }
+
 
 # ============================================================
 # Skill validator — harus konsisten dengan inference.py
