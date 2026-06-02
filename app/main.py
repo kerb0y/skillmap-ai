@@ -26,7 +26,7 @@ app = FastAPI(
         "dan rekomendasi learning path berbasis AI. "
         "Career categories (~100) telah dinormalisasi dari expanded career taxonomy."
     ),
-    version="3.0.0",
+    version="3.2",
 )
 
 
@@ -59,7 +59,7 @@ def root():
     """Root endpoint - info API."""
     return {
         "message": "SkillMap AI API is running",
-        "version": "3.0.0",
+        "version": "3.2",
         "endpoints": [
             "GET /", "GET /health", "GET /info",
             "GET /jobs", "GET /skills", "POST /predict",
