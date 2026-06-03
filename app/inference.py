@@ -526,7 +526,7 @@ CAREER_KEYWORD_MAP: dict = {
     "environmental officer": [
         "lingkungan hidup", "environmental", "amdal", "reklamasi",
         "pencemaran", "teknik lingkungan", "analisis dampak",
-        "kementerian lingkungan hidup", "lingkungan hidup", "ekologi",
+        "kementerian lingkungan hidup", "ekologi",
     ],
     "conservation officer": [
         "konservasi", "conservation", "biodiversitas", "biodiversity",
@@ -540,7 +540,7 @@ CAREER_KEYWORD_MAP: dict = {
     ],
     "gis analyst": [
         "gis", "qgis", "arcgis", "pemetaan", "mapping", "spatial",
-        "remote sensing", "penginderaan jauh", "sig ", "sistem informasi geografis",
+        "remote sensing", "penginderaan jauh", "sistem informasi geografis",
         "kartografi", "geospasial",
     ],
     "field officer": [
@@ -563,7 +563,8 @@ def recommend_career_rule_based(
     1. Keyword matching (bilingual ID+EN) dari CAREER_KEYWORD_MAP
     2. Skill overlap dengan job_skill_map
 
-    Returns: (career_category, score_0_to_100)
+    Returns: (best_career, best_score_0_to_100, all_scores_dict)
+    all_scores_dict: {career: score_0_to_100} untuk semua career
     """
     cv_lower = cv_text.lower()
     detected_set = set(detected_skills)
@@ -585,14 +586,65 @@ def recommend_career_rule_based(
 
         # ── Combined: keyword lebih dominan saat target_job kosong ──
         combined = (0.55 * keyword_score) + (0.45 * skill_score)
-        scores[career] = combined
+        scores[career] = round(combined * 100, 2)
 
     if not scores:
-        return None, 0.0
+        return None, 0.0, {}
 
     best_career = max(scores, key=scores.get)
-    best_score = scores[best_career] * 100
-    return best_career, round(best_score, 2)
+    best_score = scores[best_career]
+    return best_career, best_score, scores
+
+
+def build_career_recommendations(
+    all_scores: dict,
+    top_career: str,
+    top_score: float,
+    source: str,
+    min_score: float = 10.0,
+    max_gap: float = 20.0,
+    max_items: int = 10,
+) -> list:
+    """
+    Bangun list career_recommendations yang dinamis.
+
+    Aturan inklusi (salah satu harus terpenuhi):
+    - score >= min_score  (relevansi absolut)
+    - selisih dengan top_score <= max_gap  (relevansi relatif)
+
+    Hasil di-sort descending by score, maksimal max_items item.
+    Jika hanya 1 career relevan, tetap tampil 1 saja.
+    """
+    if not all_scores:
+        return [{"career": top_career, "score": top_score, "source": source}] if top_career else []
+
+    candidates = []
+    for career, score in all_scores.items():
+        if score <= 0:
+            continue
+        abs_ok = score >= min_score
+        rel_ok = (top_score - score) <= max_gap
+        if abs_ok or rel_ok:
+            candidates.append((career, score))
+
+    # Sort descending by score
+    candidates.sort(key=lambda x: x[1], reverse=True)
+
+    # Selalu pastikan top_career ada di posisi pertama
+    result = []
+    seen = set()
+    for career, score in candidates[:max_items]:
+        if career == top_career:
+            result.insert(0, {"career": career, "score": score, "source": source})
+        else:
+            result.append({"career": career, "score": score, "source": "rule_based"})
+        seen.add(career)
+
+    # Fallback: jika top_career tidak lolos threshold tapi harus tetap ada
+    if top_career and top_career not in seen:
+        result.insert(0, {"career": top_career, "score": top_score, "source": source})
+
+    return result[:max_items]
 
 
 # ============================================================
@@ -932,10 +984,13 @@ def get_skillmap_result(
             effective_model_score = model_confidence
         else:
             effective_model_score = 0.0
+        rule_all_scores = {}
 
     # ── Jalur B: target_job kosong → hybrid recommendation ────
     else:
-        rule_career, rule_score = recommend_career_rule_based(cv_text, detected_skills)
+        rule_career, rule_score, rule_all_scores = recommend_career_rule_based(
+            cv_text, detected_skills
+        )
 
         # Threshold: rule_based harus minimal 15% confident untuk menang atas model
         RULE_THRESHOLD = 15.0
@@ -955,12 +1010,15 @@ def get_skillmap_result(
             recommended_career = raw_model_prediction
             recommendation_source = "model"
             effective_model_score = model_confidence
+            # Tambahkan model prediction ke scores agar muncul di recommendations
+            if raw_model_prediction not in rule_all_scores:
+                rule_all_scores[raw_model_prediction] = model_confidence
         else:
             recommended_career = rule_career or "unknown"
             recommendation_source = "rule_based"
             effective_model_score = 0.0
 
-    # 4. Skill gap
+    # 4. Skill gap (berdasarkan recommended_career utama)
     owned_skills, skill_gap, required_skills = detect_skill_gap(
         detected_skills, recommended_career
     )
@@ -982,10 +1040,34 @@ def get_skillmap_result(
         recommendation_source=recommendation_source,
     )
 
+    # 7. Build career_recommendations (dinamis berdasarkan threshold)
+    if recommendation_source == "user_input" or not rule_all_scores:
+        # Jalur A: user sudah pilih career sendiri → hanya tampilkan itu
+        career_recommendations = [
+            {
+                "career": recommended_career,
+                "score": round(scores["career_match_score"], 2),
+                "source": recommendation_source,
+            }
+        ]
+    else:
+        # Jalur B: ambil top_score dari rule_all_scores
+        top_score_raw = rule_all_scores.get(recommended_career, 0.0)
+        career_recommendations = build_career_recommendations(
+            all_scores=rule_all_scores,
+            top_career=recommended_career,
+            top_score=top_score_raw,
+            source=recommendation_source,
+            min_score=14.0,   # filter noise (barista, cashier, dll yang tidak relevan)
+            max_gap=25.0,     # atau selisih dengan top tidak lebih dari 25 poin
+            max_items=8,
+        )
+
     return {
         "detected_skills_from_cv": detected_skills,
         "target_job": normalized_target if normalized_target else (target_job.strip() or None),
         "recommended_career": recommended_career,
+        "career_recommendations": career_recommendations,
         "recommendation_source": recommendation_source,
         "raw_model_prediction": raw_model_prediction,
         "career_match_score": scores["career_match_score"],
